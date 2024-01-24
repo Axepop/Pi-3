@@ -1,0 +1,269 @@
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-modules-load[86]: Module 'bcm2835_wdt' is builtin
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: rootfs: Superblock last mount time is in the future.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: rootfs: clean, 53319/477120 files, 395914/1947392 blocks
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Create list of required static device nodes for the current kernel.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Load Kernel Modules.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started File System Check on Root Device.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started File System Check Daemon to report status.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Apply Kernel Variables...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-sysctl[117]: Couldn't write '10' to 'kernel-panic', ignoring: No such file or directory
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting Configuration File System...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted Configuration File System.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Set the console keyboard layout.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Remount Root and Kernel File Systems.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Apply Kernel Variables.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Create Static Device Nodes in /dev.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting udev Kernel Device Manager...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting udev Coldplug all Devices...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Load/Save Random Seed...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Reached target Local File Systems (Pre).
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/alsa...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /tmp...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/pulse...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/tmp...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /media/USBDRIVES...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-lib-samba.mount: Directory /var/lib/samba to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/samba...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dhcpcd5...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/cache/samba...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dhcp...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-spool.mount: Directory /var/spool to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/spool...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-log.mount: Directory /var/log to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/log...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /media/MYMEDIA...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dbus...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /tmp.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/tmp.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/log.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/spool.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/alsa.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/pulse.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dbus.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dhcp.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dhcpcd5.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/samba.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/cache/samba.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /media/MYMEDIA.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /media/USBDRIVES.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started udev Kernel Device Manager.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Load/Save Random Seed.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.config-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.cache-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.config-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.cache-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.local-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.local-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/bluetooth...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.backlight...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.backlight.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/bluetooth.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.local-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.config-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.cache-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.local-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.config-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.cache-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started udev Coldplug all Devices.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Found device /dev/ttyS0.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Flush Journal to Persistent Storage.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Sound Card.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Show Plymouth Boot Screen...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Found device /dev/mmcblk0p1.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+20 from PID 265 (plymouthd).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Show Plymouth Boot Screen.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Paths.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Encrypted Volumes.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: fsck.fat 4.1 (2017-01-24)
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]:  Automatically removing dirty bit.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: Performing changes.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: /dev/mmcblk0p1: 208 files, 45548/87924 clusters
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started File System Check on /dev/mmcblk0p1.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /boot...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /boot.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Local File Systems.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Raise network interfaces...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Create Volatile Files and Directories...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Preprocess NFS configuration...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Set console font and keymap...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Preprocess NFS configuration.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target NFS client services.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Remote File Systems (Pre).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Remote File Systems.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: symlink(../proc/self/mounts, /etc/mtab) failed: Read-only file system
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: chmod(/var/lib/sudo) failed: Read-only file system
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/sudo/ts does not exist and cannot be created as the file system is read-only.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/systemd/coredump does not exist and cannot be created as the file system is read-only.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Set console font and keymap.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Failed to start Create Volatile Files and Directories.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Unit entered failed state.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Failed with result 'exit-code'.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Network Time Synchronization...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Raise network interfaces.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Network Time Synchronization.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target System Initialization.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Sockets.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Basic System.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Pairing Restore Service.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting LSB: Load kernel modules needed to enable cpufreq scaling...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting USB Backup Restore Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Crankshaft alsa state restore...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Login Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting System Logging Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started D-Bus System Message Bus.
+Nov  3 17:16:48 CRANKSHAFT-NG dbus[350]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting DUN service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target System Time Synchronized.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started System Logging Service.
+Nov  3 17:16:48 CRANKSHAFT-NG dundee[409]: oFono version 1.18
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started DUN service.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Login Service.
+Nov  3 17:16:48 CRANKSHAFT-NG loadcpufreq[343]: Loading cpufreq kernel modules...done (none).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started LSB: Load kernel modules needed to enable cpufreq scaling.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+20 from PID 265 (plymouthd).
+Nov  3 17:16:48 CRANKSHAFT-NG crankshaft[347]: TERM environment variable not set.
+Nov  3 17:16:48 CRANKSHAFT-NG crankshaft[347]: #033[35m#033[1mCrankshaft Management Tool v2.3.0 is executing command...#033(B#033[m#033[37m
+Nov  3 17:16:49 CRANKSHAFT-NG crankshaft[347]: Alsa state restored
+Nov  3 17:16:49 CRANKSHAFT-NG crankshaft[347]: Done.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started Crankshaft alsa state restore.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started USB Backup Restore Service.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started Crankshaft Display Service.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Starting Crankshaft USB Detect Service...
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft USB Detect Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Timer.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting dhcpcd on all interfaces...
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Night Mode Timer.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO to keyboard mapper.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Debug Mode Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Dev Mode Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Tap2Wake Service...
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft I2C Check Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting Crankshaft PulseAudio system server...
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Tap2Wake Service.
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Startup Service...
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd[1152]: dev: loaded udev
+Nov  3 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd[1152]: wlan0: starting wpa_supplicant
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd-run-hooks[1287]: wlan0: starting wpa_supplicant
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Startup Service.
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Starting Crankshaft User startup Service...
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: eth0: waiting for carrier
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: waiting for carrier
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier acquired
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: DUID 00:01:00:01:1f:ae:2d:94:b8:27:eb:c7:d2:c7
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: IAID eb:c7:d2:c7
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding address fe80::9943:b8d1:fa99:2da2
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier lost
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: deleting address fe80::9943:b8d1:fa99:2da2
+Nov  3 17:16:54 CRANKSHAFT-NG systemd[1]: Started Crankshaft User startup Service.
+Nov  3 17:16:56 CRANKSHAFT-NG service_pacheck.sh[893]: setterm: $TERM is not defined.
+Nov  3 17:16:56 CRANKSHAFT-NG service_pacheck.sh[893]: setterm: $TERM is not defined.
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier acquired
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: IAID eb:c7:d2:c7
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding address fe80::32fe:4d5:ebb4:bf3d
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: TERM environment variable not set.
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: #033[35m#033[1mCrankshaft Management Tool v2.3.0 is executing command...#033(B#033[m#033[37m
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/volume: No such file or directory
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring volume skipped...
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/capvolume: No such file or directory
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring capture volume skipped...
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Done.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft PulseAudio system server.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Android Auto Headunit.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Custom Brightness Exec Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO Trigger Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Timers Startup Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Hotspot Service.
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting an IPv6 router
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting a DHCP lease
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: offered 192.168.1.241 from 192.168.1.1
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: probing address 192.168.1.241/24
+Nov  3 17:17:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: chmod: cannot access '/tmp/autoapp_helper_command': No such file or directory
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: Usage: grep [OPTION]... PATTERN [FILE]...
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: Try 'grep --help' for more information.
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: X.Org X Server 1.19.2
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Release Date: 2017-03-02
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: X Protocol Version 11, Revision 0
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Build Operating System: Linux 4.9.41-v7+ armv7l Raspbian
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Current Operating System: Linux CRANKSHAFT-NG 4.14.98-v7+ #1200 SMP Tue Feb 12 20:27:48 GMT 2019 armv7l
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 logo.nologo
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Build Date: 18 October 2017  04:55:30PM
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: xorg-server 2:1.19.2-1+rpt1+deb9u2 (https://www.debian.org/support)
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Current version of pixman: 0.34.0
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011Before reporting problems, check http://wiki.x.org
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011to make sure that you have the latest version.
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Markers: (--) probed, (**) from config file, (==) default setting,
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011(++) from command line, (!!) notice, (II) informational,
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  3 17:17:02 2016
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using config directory: "/etc/X11/xorg.conf.d"
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: leased 192.168.1.241 for 86400 seconds
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding route to 192.168.1.0/24
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding default route via 192.168.1.1
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: forked to background, child pid 2414
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started dhcpcd on all interfaces.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Network.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting /etc/rc.local Compatibility...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Permit User Sessions...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Wifi Monitor Service...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Permit User Sessions.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started /etc/rc.local Compatibility.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Update Check.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Timers.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Bluetooth Service...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Hold until boot process finishes up...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting LSB: set CPUFreq kernel parameters...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+21 from PID 265 (plymouthd).
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Terminate Plymouth Boot Screen.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Hold until boot process finishes up.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty3.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Serial Getty on ttyS0.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty1.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Login Prompts.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Service.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Auto Pairing Service.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Device Detect Service.
+Nov  3 17:17:04 CRANKSHAFT-NG cpufrequtils[2447]: CPUFreq Utilities: Setting performance CPUFreq governor...CPU0...CPU1...CPU2...CPU3...done.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started LSB: set CPUFreq kernel parameters.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Monitor Service.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started OpenBSD Secure Shell server.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Reached target Multi-User System.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Reached target Graphical Interface.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Startup finished in 4.154s (kernel) + 22.552s (userspace) = 26.707s.
+Nov  3 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-pi'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: Cannot find a running Bluez. Please check the Bluez installation.
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:10 CRANKSHAFT-NG dhcpcd[2414]: wlan0: no IPv6 Routers available
+Nov  3 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Apr  8 13:35:26 CRANKSHAFT-NG systemd[1]: Time has been changed
+Apr  8 13:35:26 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Apr  8 13:36:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Apr  8 13:36:41 CRANKSHAFT-NG systemd[1]: Reloading.
+Apr  8 13:37:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.

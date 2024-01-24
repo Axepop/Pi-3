@@ -1,0 +1,103 @@
+Session start ****************************************************************************
+******************************************************************************************
+[2016-11-03 17:17:08.620498] [0x72481000] [info]    [OpenAuto] [OpenAuto] Display width: 480
+[2016-11-03 17:17:08.620612] [0x72481000] [info]    [OpenAuto] [OpenAuto] Display height: 320
+[2016-11-03 17:17:09.425046] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: BR_MIN= Value:30
+[2016-11-03 17:17:09.425282] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: BR_MAX= Value:255
+[2016-11-03 17:17:09.425411] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: BR_STEP= Value:25
+[2016-11-03 17:17:09.425533] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: BR_STEP= Value:25
+[2016-11-03 17:17:17.559343] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: WIFI_SSID= Value:ohana
+[2016-11-03 17:17:17.559598] [0x72481000] [info]    [OpenAuto] [Configuration] CS param found: WIFI2_SSID= Value:Mike
+[2016-11-03 17:17:17.987807] [0x6fafe300] [info]    [OpenAuto] [App] Waiting for device...
+[2016-11-03 17:17:17.997795] [0x6fafe300] [info]    [OpenAuto] [App] Devices enumeration result: false
+[2019-04-08 13:35:41.306795] [0x6e2fb300] [info]    [OpenAuto] [App] Device connected.
+[2019-04-08 13:35:41.306904] [0x6e2fb300] [info]    [OpenAuto] [App] Start Android Auto allowed - let's go.
+[2019-04-08 13:35:41.343635] [0x72481000] [debug]   [OpenAuto] [AudioInput] create.
+[2019-04-08 13:35:41.426836] [0x6e2fb300] [info]    [OpenAuto] [AndroidAutoEntity] start.
+[2019-04-08 13:35:41.426963] [0x6e2fb300] [info]    [OpenAuto] [AudioInputService] start.
+[2019-04-08 13:35:41.427596] [0x6e2fb300] [info]    [OpenAuto] [AudioService] start, channel: MEDIA_AUDIO
+[2019-04-08 13:35:41.427694] [0x6e2fb300] [info]    [OpenAuto] [AudioService] start, channel: SPEECH_AUDIO
+[2019-04-08 13:35:41.427763] [0x6e2fb300] [info]    [OpenAuto] [AudioService] start, channel: SYSTEM_AUDIO
+[2019-04-08 13:35:41.428094] [0x6e2fb300] [info]    [OpenAuto] [SensorService] start.
+[2019-04-08 13:35:41.428175] [0x6e2fb300] [info]    [OpenAuto] [VideoService] start.
+[2019-04-08 13:35:41.428250] [0x6e2fb300] [info]    [OpenAuto] [BluetoothService] start.
+[2019-04-08 13:35:41.428331] [0x6e2fb300] [info]    [OpenAuto] [InputService] start.
+[2019-04-08 13:35:41.430005] [0x6e2fb300] [info]    [OpenAuto] [AndroidAutoEntity] version response, version: 1.5, status: 0
+[2019-04-08 13:35:41.430081] [0x6e2fb300] [info]    [OpenAuto] [AndroidAutoEntity] Begin handshake.
+[2019-04-08 13:35:41.439914] [0x6fafe300] [info]    [OpenAuto] [AndroidAutoEntity] Handshake, size: 2282
+[2019-04-08 13:35:41.519952] [0x6fafe300] [info]    [OpenAuto] [AndroidAutoEntity] continue handshake.
+[2019-04-08 13:35:41.529876] [0x6eafc300] [info]    [OpenAuto] [AndroidAutoEntity] Handshake, size: 51
+[2019-04-08 13:35:41.530632] [0x6eafc300] [info]    [OpenAuto] [AndroidAutoEntity] Auth completed.
+[2019-04-08 13:35:41.536866] [0x6eafc300] [info]    [OpenAuto] [AndroidAutoEntity] Discovery request, device name: Android, brand: samsung SM-G950F
+[2019-04-08 13:35:41.537064] [0x6eafc300] [info]    [OpenAuto] [AudioInputService] fill features.
+[2019-04-08 13:35:41.537229] [0x6eafc300] [info]    [OpenAuto] [AudioService] fill features, channel: MEDIA_AUDIO
+[2019-04-08 13:35:41.537310] [0x6eafc300] [info]    [OpenAuto] [AudioService] fill features, channel: SPEECH_AUDIO
+[2019-04-08 13:35:41.537370] [0x6eafc300] [info]    [OpenAuto] [AudioService] fill features, channel: SYSTEM_AUDIO
+[2019-04-08 13:35:41.537429] [0x6eafc300] [info]    [OpenAuto] [SensorService] fill features.
+[2019-04-08 13:35:41.537518] [0x6eafc300] [info]    [OpenAuto] [VideoService] fill features.
+[2019-04-08 13:35:41.537598] [0x6eafc300] [info]    [OpenAuto] [BluetoothService] fill features
+[2019-04-08 13:35:41.537653] [0x6eafc300] [info]    [OpenAuto] [InputService] fill features.
+[2019-04-08 13:35:41.604878] [0x6eafc300] [info]    [OpenAuto] [AudioInputService] open request, priority: 0
+[2019-04-08 13:35:41.604974] [0x6eafc300] [info]    [OpenAuto] [AudioInputService] open status: 0
+[2019-04-08 13:35:41.605555] [0x6e2fb300] [info]    [OpenAuto] [AudioService] open request, channel: MEDIA_AUDIO, priority: 0
+[2019-04-08 13:35:41.605645] [0x6e2fb300] [debug]   [OpenAuto] [AudioService] channel: MEDIA_AUDIO audio output sample rate: 48000, sample size: 16, channel count: 2
+[2019-04-08 13:35:41.606119] [0x6eafc300] [info]    [OpenAuto] [AudioService] open request, channel: SPEECH_AUDIO, priority: 0
+[2019-04-08 13:35:41.606208] [0x6eafc300] [debug]   [OpenAuto] [AudioService] channel: SPEECH_AUDIO audio output sample rate: 16000, sample size: 16, channel count: 1
+[2019-04-08 13:35:41.607076] [0x6f2fd300] [info]    [OpenAuto] [AudioService] open request, channel: SYSTEM_AUDIO, priority: 0
+[2019-04-08 13:35:41.607218] [0x6f2fd300] [debug]   [OpenAuto] [AudioService] channel: SYSTEM_AUDIO audio output sample rate: 16000, sample size: 16, channel count: 1
+[2019-04-08 13:35:41.610947] [0x6fafe300] [info]    [OpenAuto] [SensorService] open request, priority: 0
+[2019-04-08 13:35:41.611086] [0x6fafe300] [info]    [OpenAuto] [SensorService] open status: 0
+[2019-04-08 13:35:41.612792] [0x6fafe300] [info]    [OpenAuto] [VideoService] open request, priority: 0
+[2019-04-08 13:35:41.612908] [0x6fafe300] [info]    [OpenAuto] [OMXVideoOutput] open.
+[2019-04-08 13:35:41.623589] [0x6f2fd300] [info]    [OpenAuto] [RtAudioOutput] Sample Rate: 16000
+[2019-04-08 13:35:41.623778] [0x6f2fd300] [info]    [OpenAuto] [AudioService] open status: 0, channel: SYSTEM_AUDIO
+[2019-04-08 13:35:41.624842] [0x6f2fd300] [info]    [OpenAuto] [InputService] open request, priority: 0
+[2019-04-08 13:35:41.624961] [0x6f2fd300] [info]    [OpenAuto] [InputService] open status: 0
+[2019-04-08 13:35:41.625989] [0x6f2fd300] [info]    [OpenAuto] [AndroidAutoEntity] requested audio focus, type: 4
+[2019-04-08 13:35:41.626103] [0x6f2fd300] [info]    [OpenAuto] [AndroidAutoEntity] audio focus state: 3
+[2019-04-08 13:35:41.626985] [0x6eafc300] [info]    [OpenAuto] [RtAudioOutput] Sample Rate: 16000
+[2019-04-08 13:35:41.627145] [0x6eafc300] [info]    [OpenAuto] [AudioService] open status: 0, channel: SPEECH_AUDIO
+[2019-04-08 13:35:41.627207] [0x6f2fd300] [info]    [OpenAuto] [SensorService] sensor start request, type: 13
+[2019-04-08 13:35:41.627787] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup request, channel: SYSTEM_AUDIO, config index: 1
+[2019-04-08 13:35:41.627883] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup status: 2, channel: SYSTEM_AUDIO
+[2019-04-08 13:35:41.629359] [0x6f2fd300] [info]    [OpenAuto] [InputService] binding request, scan codes count: 0
+[2019-04-08 13:35:41.629527] [0x6f2fd300] [info]    [OpenAuto] [InputDevice] start.
+[2019-04-08 13:35:41.629654] [0x6f2fd300] [info]    [OpenAuto] [InputService] binding request, status: 0
+[2019-04-08 13:35:41.630030] [0x6e2fb300] [info]    [OpenAuto] [RtAudioOutput] Sample Rate: 48000
+[2019-04-08 13:35:41.630143] [0x6e2fb300] [info]    [OpenAuto] [AudioService] open status: 0, channel: MEDIA_AUDIO
+[2019-04-08 13:35:41.630553] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup request, channel: SPEECH_AUDIO, config index: 1
+[2019-04-08 13:35:41.630631] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup status: 2, channel: SPEECH_AUDIO
+[2019-04-08 13:35:41.631290] [0x6f2fd300] [info]    [OpenAuto] [SensorService] sensor start request, type: 10
+[2019-04-08 13:35:41.632932] [0x6f2fd300] [info]    [OpenAuto] [SensorService] Mode day triggered
+[2019-04-08 13:35:41.633580] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup request, channel: MEDIA_AUDIO, config index: 1
+[2019-04-08 13:35:41.633697] [0x6f2fd300] [info]    [OpenAuto] [AudioService] setup status: 2, channel: MEDIA_AUDIO
+[2019-04-08 13:35:41.642962] [0x6fafe300] [info]    [OpenAuto] [VideoService] open status: 0
+[2019-04-08 13:35:41.644270] [0x6e2fb300] [info]    [OpenAuto] [VideoService] setup request, config index: 3
+[2019-04-08 13:35:41.644383] [0x6e2fb300] [info]    [OpenAuto] [OMXVideoOutput] init, state: true
+[2019-04-08 13:35:41.644779] [0x6e2fb300] [info]    [OpenAuto] [VideoService] setup status: 2
+[2019-04-08 13:35:41.645210] [0x6f2fd300] [info]    [OpenAuto] [VideoService] video focus indication.
+[2019-04-08 13:35:41.650247] [0x6f2fd300] [info]    [OpenAuto] [VideoService] start indication, session: 0
+[2019-04-08 13:35:43.397521] [0x6e2fb300] [info]    [OpenAuto] [AndroidAutoEntity] navigation focus request, type: 2
+[2019-04-08 13:36:02.915162] [0x6f2fd300] [error]   [OpenAuto] [AndroidAutoEntity] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915231] [0x6eafc300] [error]   [OpenAuto] [AudioService] channel error: AaSdk error code: 10, native code: 1, channel: MEDIA_AUDIO
+[2019-04-08 13:36:02.915272] [0x6eafc300] [error]   [OpenAuto] [AudioService] channel error: AaSdk error code: 10, native code: 1, channel: SPEECH_AUDIO
+[2019-04-08 13:36:02.915299] [0x6eafc300] [error]   [OpenAuto] [SensorService] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915325] [0x6eafc300] [error]   [OpenAuto] [AudioService] channel error: AaSdk error code: 10, native code: 1, channel: SYSTEM_AUDIO
+[2019-04-08 13:36:02.915351] [0x6eafc300] [error]   [OpenAuto] [AudioInputService] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915377] [0x6eafc300] [error]   [OpenAuto] [BluetoothService] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915398] [0x6fafe300] [error]   [OpenAuto] [VideoService] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915419] [0x6e2fb300] [error]   [OpenAuto] [SensorService] channel error: AaSdk error code: 10, native code: 1
+[2019-04-08 13:36:02.915444] [0x6f2fd300] [info]    [OpenAuto] [App] onAndroidAutoQuit.
+[2019-04-08 13:36:02.915472] [0x6f2fd300] [info]    [OpenAuto] [AndroidAutoEntity] stop.
+[2019-04-08 13:36:02.915497] [0x6f2fd300] [info]    [OpenAuto] [AudioInputService] stop.
+[2019-04-08 13:36:02.915570] [0x6f2fd300] [info]    [OpenAuto] [AudioService] stop, channel: MEDIA_AUDIO
+[2019-04-08 13:36:02.917209] [0x6f2fd300] [info]    [OpenAuto] [AudioService] stop, channel: SPEECH_AUDIO
+[2019-04-08 13:36:02.918419] [0x6f2fd300] [info]    [OpenAuto] [AudioService] stop, channel: SYSTEM_AUDIO
+[2019-04-08 13:36:02.920512] [0x6f2fd300] [info]    [OpenAuto] [SensorService] stop.
+[2019-04-08 13:36:02.920990] [0x6f2fd300] [info]    [OpenAuto] [VideoService] stop.
+[2019-04-08 13:36:02.921208] [0x6f2fd300] [info]    [OpenAuto] [OMXVideoOutput] stop.
+[2019-04-08 13:36:02.939766] [0x6f2fd300] [info]    [OpenAuto] [BluetoothService] stop.
+[2019-04-08 13:36:02.939888] [0x6f2fd300] [info]    [OpenAuto] [InputService] stop.
+[2019-04-08 13:36:02.939943] [0x6f2fd300] [info]    [OpenAuto] [InputDevice] stop.
+[2019-04-08 13:36:02.941401] [0x6f2fd300] [info]    [OpenAuto] [App] Waiting for device...
+[2019-04-08 13:36:02.941493] [0x6f2fd300] [debug]   [OpenAuto] [AndroidAutoEntity] destroy.

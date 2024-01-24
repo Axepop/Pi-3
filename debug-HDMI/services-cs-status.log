@@ -1,0 +1,434 @@
+● alsastaterestore.service - Crankshaft alsa state restore
+   Loaded: loaded (/etc/systemd/system/alsastaterestore.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:16:49 UTC; 2 years 5 months ago
+ Main PID: 347 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[483]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[483]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:48 CRANKSHAFT-NG crankshaft[347]: TERM environment variable not set.
+Nov 03 17:16:48 CRANKSHAFT-NG crankshaft[347]: [60B blob data]
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[528]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/sbin/alsactl -f /boot/crankshaft/alsactl.state restore
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[528]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:49 CRANKSHAFT-NG sudo[528]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:49 CRANKSHAFT-NG crankshaft[347]: Alsa state restored
+Nov 03 17:16:49 CRANKSHAFT-NG crankshaft[347]: Done.
+Nov 03 17:16:49 CRANKSHAFT-NG systemd[1]: Started Crankshaft alsa state restore.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● btautopair.service - Crankshaft Bluetooth Auto Pairing Service
+   Loaded: loaded (/etc/systemd/system/btautopair.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2536 (service_btautop)
+   CGroup: /system.slice/btautopair.service
+           └─2536 /usr/bin/python3 /opt/crankshaft/service_btautopair.py
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Auto Pairing Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● btdevicedetect.service - Crankshaft Bluetooth Device Detect Service
+   Loaded: loaded (/etc/systemd/system/btdevicedetect.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2537 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/btdevicedetect.service
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Device Detect Service.
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2598]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2598]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2598]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2614]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2614]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2614]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2631]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2631]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2631]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● btrestore.service - Crankshaft Bluetooth Pairing Restore Service
+   Loaded: loaded (/etc/systemd/system/btrestore.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+ Main PID: 342 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/btrestore.service
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Pairing Restore Service.
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[405]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[405]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[405]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[455]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[455]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[455]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[482]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[482]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[482]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● crankshaft.service - Crankshaft Startup Service
+   Loaded: loaded (/etc/systemd/system/crankshaft.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:53 UTC; 2 years 5 months ago
+ Main PID: 1099 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/crankshaft.service
+
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1184]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1184]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1184]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1223]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1223]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1223]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1272]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1272]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1272]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Startup Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● csng-bluetooth.service - Crankshaft Bluetooth Service
+   Loaded: loaded (/etc/systemd/system/csng-bluetooth.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2443 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/csng-bluetooth.service
+
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2485]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2485]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2485]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2504]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2504]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2504]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2518]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2518]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2518]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● custombrightness.service - Crankshaft Custom Brightness Exec Service
+   Loaded: loaded (/etc/systemd/system/custombrightness.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:57 UTC; 2 years 5 months ago
+ Main PID: 1647 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/custombrightness.service
+
+Nov 03 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Custom Brightness Exec Service.
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1739]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1739]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1739]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1777]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1777]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1777]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1816]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1816]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1816]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● daymode.service - Crankshaft Day Mode Service
+   Loaded: loaded (/etc/systemd/system/daymode.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Mon 2019-04-08 13:37:00 UTC; 9s ago
+ Main PID: 4827 (code=exited, status=0/SUCCESS)
+
+Apr 08 13:37:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4845]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4845]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4845]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4853]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4853]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4853]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4861]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4861]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:37:00 CRANKSHAFT-NG sudo[4861]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● debugmode.service - Crankshaft Debug Mode Service
+   Loaded: loaded (/etc/systemd/system/debugmode.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:52 UTC; 2 years 5 months ago
+ Main PID: 887 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/debugmode.service
+
+Nov 03 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Debug Mode Service.
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[974]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[974]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[974]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1012]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1012]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1012]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1043]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1043]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1043]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● devmode.service - Crankshaft Dev Mode Service
+   Loaded: loaded (/etc/systemd/system/devmode.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:52 UTC; 2 years 5 months ago
+ Main PID: 888 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/devmode.service
+
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1339]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1339]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1362]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1362]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1362]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1380]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1380]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1380]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:55 CRANKSHAFT-NG root[1493]: SERV-LOGGER: --------------------------------------------------------------------
+Nov 03 17:16:55 CRANKSHAFT-NG root[1495]: SERV-LOGGER: Show Cursor
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● display.service - Crankshaft Display Service
+   Loaded: loaded (/etc/systemd/system/display.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:49 UTC; 2 years 5 months ago
+ Main PID: 571 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/display.service
+
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[634]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[687]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[687]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[687]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[704]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[704]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[704]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[720]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[720]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:50 CRANKSHAFT-NG sudo[720]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● gpio2kbd.service - Crankshaft GPIO to keyboard mapper
+   Loaded: loaded (/etc/systemd/system/gpio2kbd.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:52 UTC; 2 years 5 months ago
+ Main PID: 886 (gpio2kbd)
+   CGroup: /system.slice/gpio2kbd.service
+           └─886 /opt/crankshaft/gpio2kbd /boot/crankshaft/gpio2kbd.cfg
+
+Nov 03 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO to keyboard mapper.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● gpiotrigger.service - Crankshaft GPIO Trigger Service
+   Loaded: loaded (/etc/systemd/system/gpiotrigger.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:57 UTC; 2 years 5 months ago
+ Main PID: 1648 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/gpiotrigger.service
+
+Nov 03 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO Trigger Service.
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1736]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1736]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1736]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1776]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1776]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1776]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1815]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1815]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1815]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● hotspot.service - Crankshaft Wifi Hotspot Service
+   Loaded: loaded (/etc/systemd/system/hotspot.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:16:58 UTC; 2 years 5 months ago
+ Main PID: 1650 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Hotspot Service.
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1738]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1738]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1738]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1772]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1772]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1772]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1811]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1811]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1811]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● i2ccheck.service - Crankshaft I2C Check Service
+   Loaded: loaded (/etc/systemd/system/i2ccheck.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:52 UTC; 2 years 5 months ago
+ Main PID: 890 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/i2ccheck.service
+
+Nov 03 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft I2C Check Service.
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1138]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1138]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1138]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1185]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1185]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1185]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1226]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1226]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1226]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● lightsensor.service - Crankshaft Lightsensor Service
+   Loaded: loaded (/etc/systemd/system/lightsensor.service; enabled; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● nightmode.service - Crankshaft Night Mode Service
+   Loaded: loaded (/etc/systemd/system/nightmode.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● openauto.service - Crankshaft Android Auto Headunit
+   Loaded: loaded (/etc/systemd/system/openauto.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:57 UTC; 2 years 5 months ago
+ Main PID: 1646 (service_openaut)
+   CGroup: /system.slice/openauto.service
+           ├─1646 /bin/bash /opt/crankshaft/service_openauto.sh
+           ├─2396 xinit
+           ├─2397 /usr/lib/xorg/Xorg :0
+           └─2659 autoapp --platform xcb
+
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]:         Before reporting problems, check http://wiki.x.org
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]:         to make sure that you have the latest version.
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Markers: (--) probed, (**) from config file, (==) default setting,
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]:         (++) from command line, (!!) notice, (II) informational,
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]:         (WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  3 17:17:02 2016
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using config directory: "/etc/X11/xorg.conf.d"
+Nov 03 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Nov 03 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-pi'
+Nov 03 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: Cannot find a running Bluez. Please check the Bluez installation.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● pulseaudio.service - Crankshaft PulseAudio system server
+   Loaded: loaded (/etc/systemd/system/pulseaudio.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:57 UTC; 2 years 5 months ago
+ Main PID: 892 (pulseaudio)
+   CGroup: /system.slice/pulseaudio.service
+           └─892 /usr/bin/pulseaudio --daemonize=no --system --disable-shm --disallow-exit --log-target=journal
+
+Nov 03 17:16:56 CRANKSHAFT-NG sudo[1591]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:56 CRANKSHAFT-NG sudo[1591]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: TERM environment variable not set.
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: [60B blob data]
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/volume: No such file or directory
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring volume skipped...
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/capvolume: No such file or directory
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring capture volume skipped...
+Nov 03 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Done.
+Nov 03 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft PulseAudio system server.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● regensshkeys.service - Crankshaft Regenerate SSH host keys Service
+   Loaded: loaded (/etc/systemd/system/regensshkeys.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● tap2wake.service - Crankshaft Tap2Wake Service
+   Loaded: loaded (/etc/systemd/system/tap2wake.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:53 UTC; 2 years 5 months ago
+ Main PID: 889 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/tap2wake.service
+           ├─1090 evtest /dev/input/event0
+           ├─1091 /bin/bash /opt/crankshaft/service_tap2wake.sh
+           ├─1093 evtest /dev/input/event1
+           └─1094 /bin/bash /opt/crankshaft/service_tap2wake.sh
+
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[975]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[975]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[975]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1007]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1007]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1007]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1044]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1044]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[1044]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Tap2Wake Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● timerstart.service - Crankshaft Timers Startup Service
+   Loaded: loaded (/etc/systemd/system/timerstart.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:57 UTC; 2 years 5 months ago
+ Main PID: 1649 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/timerstart.service
+
+Nov 03 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Timers Startup Service.
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1737]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 4 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1737]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1737]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1773]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1773]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1773]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:57 CRANKSHAFT-NG sudo[1818]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1818]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:58 CRANKSHAFT-NG sudo[1818]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● update.service - Crankshaft Update Service
+   Loaded: loaded (/etc/systemd/system/update.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● usbdetect.service - Crankshaft USB Detect Service
+   Loaded: loaded (/etc/systemd/system/usbdetect.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:52 UTC; 2 years 5 months ago
+ Main PID: 572 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/usbdetect.service
+
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[825]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[825]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[825]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[833]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[833]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:51 CRANKSHAFT-NG sudo[833]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[864]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/bin/mount -o remount,ro /
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[864]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:52 CRANKSHAFT-NG sudo[864]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft USB Detect Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● user_startup.service - Crankshaft User startup Service
+   Loaded: loaded (/etc/systemd/system/user_startup.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:54 UTC; 2 years 5 months ago
+ Main PID: 1340 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/user_startup.service
+
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1373]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:53 CRANKSHAFT-NG sudo[1373]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1390]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1390]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1390]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1412]:       pi : TTY=unknown ; PWD=/home/pi ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1412]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:54 CRANKSHAFT-NG sudo[1412]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:54 CRANKSHAFT-NG pi[1436]: SERV-LOGGER: --------------------------------------------------------------------
+Nov 03 17:16:54 CRANKSHAFT-NG systemd[1]: Started Crankshaft User startup Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● wpa-monitor.service - Crankshaft Wifi Monitor Service
+   Loaded: loaded (/etc/systemd/system/wpa-monitor.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:17:04 UTC; 2 years 5 months ago
+ Main PID: 2633 (wpa_cli)
+   CGroup: /system.slice/wpa-monitor.service
+           └─2633 /sbin/wpa_cli -a /opt/crankshaft/service_wpachange.sh -iwlan0
+
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2544]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2552]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/rm /tmp/wifi_ssid
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2552]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:03 CRANKSHAFT-NG sudo[2552]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2607]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/rm /tmp/gateway_wlan0
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2607]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:17:04 CRANKSHAFT-NG sudo[2607]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:17:04 CRANKSHAFT-NG root[2622]: SERV-LOGGER: --------------------------------------------------------------------
+Nov 03 17:17:04 CRANKSHAFT-NG root[2625]: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov 03 17:17:04 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Monitor Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------

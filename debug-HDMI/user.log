@@ -1,0 +1,142 @@
+Nov  3 17:16:48 CRANKSHAFT-NG mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Nov  3 17:16:48 CRANKSHAFT-NG mtp-probe: bus: 1, device: 4 was not an MTP device
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /usr/local/bin/crankshaft
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Alsa state restored
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Show Screen
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Checking for cs backups to restore...
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: No device brightness file present
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: Reqeust: unlock system
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: Before: read-only
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: After : read-write
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: Reqeust: lock system
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: Before: read-write
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: After : read-only
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Running in system mode, but --disallow-module-loading not set.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Running in system mode, forcibly disabling exit idle time.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: OK, so you are running PA in system mode. Please make sure that you actually do want to do that.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Please read http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ for an explanation why system mode is usually a bad idea.
+Nov  3 17:16:52 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wifisetup.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Copy wifi client config and ensure country code is set
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG pulseaudio[892]: GetManagedObjects() failed: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_i2ccheck.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: I2C bus disabled - skip checks.
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_crankshaft.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Set user permissions /tmp/xxx
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: Enable Dev Mode OpenAuto
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_user_startup.sh
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: User bash script starting...
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_user_startup.sh
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: User python script starting...
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Show Screen
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Stop watchdog.service
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Show Clear Screen
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Pulseaudio: 7
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Pulseaudio has detected no inputs!
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_timerstart.sh
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_hotspot.sh
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Skip starting  timers
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Exec hotspot script NOT possible - no autostart or manual control enabled
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_openauto.sh
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: Restoring settings
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_openauto.sh
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: Starting OpenAuto in X11 Mode
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: WPA-EVENT: USING WIFI SSID: ohana
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: DHCP-EVENT: ohana got a lease
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: ROUTE: Default route set to 192.168.1.1
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: Device detected - /dev/bus/usb/001/005 - SAMSUNG_Android
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:38 CRANKSHAFT-NG mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Apr  8 13:35:38 CRANKSHAFT-NG mtp-probe: bus: 1, device: 6 was not an MTP device
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: Device removed - /dev/bus/usb/001/005 - SAMSUNG_Android
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: Device detected - /dev/bus/usb/001/006 - SAMSUNG_Android
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: Device removed - /dev/bus/usb/001/006 - SAMSUNG_Android
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------

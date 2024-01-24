@@ -1,0 +1,166 @@
+[    24.726] 
+X.Org X Server 1.19.2
+Release Date: 2017-03-02
+[    24.726] X Protocol Version 11, Revision 0
+[    24.726] Build Operating System: Linux 4.9.41-v7+ armv7l Raspbian
+[    24.726] Current Operating System: Linux CRANKSHAFT-NG 4.14.98-v7+ #1200 SMP Tue Feb 12 20:27:48 GMT 2019 armv7l
+[    24.726] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 logo.nologo
+[    24.726] Build Date: 18 October 2017  04:55:30PM
+[    24.726] xorg-server 2:1.19.2-1+rpt1+deb9u2 (https://www.debian.org/support) 
+[    24.726] Current version of pixman: 0.34.0
+[    24.727] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    24.727] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    24.727] (==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  3 17:17:02 2016
+[    24.746] (==) Using config directory: "/etc/X11/xorg.conf.d"
+[    24.746] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    24.767] (==) No Layout section.  Using the first Screen section.
+[    24.767] (**) |-->Screen "lcd" (0)
+[    24.767] (**) |   |-->Monitor "Pi"
+[    24.768] (**) |   |-->Device "LCDMIO"
+[    24.768] (**) |   |-->GPUDevice "LCDMIO"
+[    24.769] (==) Automatically adding devices
+[    24.769] (==) Automatically enabling devices
+[    24.769] (==) Automatically adding GPU devices
+[    24.778] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    24.779] (WW) The directory "/usr/share/fonts/X11/misc" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    24.780] 	Entry deleted from font path.
+[    24.780] (==) FontPath set to:
+	built-ins
+[    24.780] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    24.780] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    24.783] (II) Loader magic: 0x1fbf40
+[    24.783] (II) Module ABI versions:
+[    24.783] 	X.Org ANSI C Emulation: 0.4
+[    24.783] 	X.Org Video Driver: 23.0
+[    24.783] 	X.Org XInput driver : 24.1
+[    24.783] 	X.Org Server Extension : 10.0
+[    24.787] (--) using VT number 1
+
+[    24.787] (II) systemd-logind: logind integration requires -keeptty and -keeptty was not provided, disabling logind integration
+[    24.788] (II) no primary bus or device found
+[    24.790] (II) LoadModule: "glx"
+[    24.812] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    24.904] (II) Module glx: vendor="X.Org Foundation"
+[    24.904] 	compiled for 1.19.2, module version = 1.0.0
+[    24.904] 	ABI class: X.Org Server Extension, version 10.0
+[    24.904] (II) LoadModule: "fbdev"
+[    24.905] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[    24.908] (II) Module fbdev: vendor="X.Org Foundation"
+[    24.909] 	compiled for 1.19.0, module version = 0.4.4
+[    24.909] 	Module class: X.Org Video Driver
+[    24.909] 	ABI class: X.Org Video Driver, version 23.0
+[    24.909] (II) FBDEV: driver for framebuffer: fbdev
+[    24.911] (WW) Falling back to old probe method for fbdev
+[    24.911] (II) Loading sub module "fbdevhw"
+[    24.911] (II) LoadModule: "fbdevhw"
+[    24.913] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[    24.918] (II) Module fbdevhw: vendor="X.Org Foundation"
+[    24.918] 	compiled for 1.19.2, module version = 0.0.2
+[    24.918] 	ABI class: X.Org Video Driver, version 23.0
+[    24.918] (II) FBDEV(0): using /dev/fb1
+[    24.918] (II) FBDEV(1): using /dev/fb1
+[    24.918] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    24.918] (EE) Screen 1 deleted because of no matching config section.
+[    24.918] (II) UnloadModule: "fbdev"
+[    24.918] (II) UnloadSubModule: "fbdevhw"
+[    24.918] (II) FBDEV(0): Creating default Display subsection in Screen section
+	"lcd" for depth/fbbpp 16/16
+[    24.918] (==) FBDEV(0): Depth 16, (==) framebuffer bpp 16
+[    24.918] (==) FBDEV(0): RGB weight 565
+[    24.918] (==) FBDEV(0): Default visual is TrueColor
+[    24.919] (==) FBDEV(0): Using gamma correction (1.0, 1.0, 1.0)
+[    24.919] (II) FBDEV(0): hardware: fb_ili9486 (video memory: 300kB)
+[    24.919] (**) FBDEV(0): Option "fbdev" "/dev/fb1"
+[    24.919] (II) FBDEV(0): checking modes against framebuffer device...
+[    24.919] (II) FBDEV(0): checking modes against monitor...
+[    24.919] (--) FBDEV(0): Virtual size is 480x320 (pitch 480)
+[    24.919] (**) FBDEV(0):  Built-in mode "current"
+[    24.919] (==) FBDEV(0): DPI set to (96, 96)
+[    24.919] (II) Loading sub module "fb"
+[    24.919] (II) LoadModule: "fb"
+[    24.919] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    24.930] (II) Module fb: vendor="X.Org Foundation"
+[    24.930] 	compiled for 1.19.2, module version = 1.0.0
+[    24.930] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    24.930] (**) FBDEV(0): using shadow framebuffer
+[    24.930] (II) Loading sub module "shadow"
+[    24.930] (II) LoadModule: "shadow"
+[    24.930] (II) Loading /usr/lib/xorg/modules/libshadow.so
+[    24.938] (II) Module shadow: vendor="X.Org Foundation"
+[    24.938] 	compiled for 1.19.2, module version = 1.1.0
+[    24.939] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    24.939] (II) FBDEV(0): FBIOBLANK: Invalid argument (Screen blanking not supported by kernel - disabling)
+[    24.963] (==) FBDEV(0): Backing store enabled
+[    24.970] (==) FBDEV(0): DPMS enabled
+[    24.972] (==) RandR enabled
+[    25.022] (II) SELinux: Disabled on system
+[    25.032] (II) AIGLX: Screen 0 is not DRI2 capable
+[    25.032] (EE) AIGLX: reverting to software rendering
+[    28.032] (II) IGLX: enabled GLX_MESA_copy_sub_buffer
+[    28.036] (II) IGLX: Loaded and initialized swrast
+[    28.036] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[    28.381] (II) config/udev: Adding input device ADS7846 Touchscreen (/dev/input/event0)
+[    28.382] (**) ADS7846 Touchscreen: Applying InputClass "evdev touchscreen catchall"
+[    28.382] (**) ADS7846 Touchscreen: Applying InputClass "libinput touchscreen catchall"
+[    28.382] (**) ADS7846 Touchscreen: Applying InputClass "evdev touchscreen catchall"
+[    28.382] (**) ADS7846 Touchscreen: Applying InputClass "calibration"
+[    28.382] (II) LoadModule: "evdev"
+[    28.382] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[    28.407] (II) Module evdev: vendor="X.Org Foundation"
+[    28.407] 	compiled for 1.19.0, module version = 2.10.5
+[    28.407] 	Module class: X.Org XInput Driver
+[    28.407] 	ABI class: X.Org XInput driver, version 24.1
+[    28.407] (II) Using input driver 'evdev' for 'ADS7846 Touchscreen'
+[    28.407] (**) ADS7846 Touchscreen: always reports core events
+[    28.408] (**) evdev: ADS7846 Touchscreen: Device: "/dev/input/event0"
+[    28.408] (--) evdev: ADS7846 Touchscreen: Vendor 0 Product 0
+[    28.408] (--) evdev: ADS7846 Touchscreen: Found absolute axes
+[    28.408] (--) evdev: ADS7846 Touchscreen: Found x and y absolute axes
+[    28.408] (--) evdev: ADS7846 Touchscreen: Found absolute touchscreen
+[    28.408] (**) Option "InvertX" "true"
+[    28.408] (**) Option "SwapAxes" "1"
+[    28.408] (II) evdev: ADS7846 Touchscreen: Configuring as touchscreen
+[    28.409] (**) evdev: ADS7846 Touchscreen: YAxisMapping: buttons 4 and 5
+[    28.409] (**) evdev: ADS7846 Touchscreen: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[    28.409] (**) Option "config_info" "udev:/sys/devices/platform/soc/3f204000.spi/spi_master/spi0/spi0.1/input/input0/event0"
+[    28.409] (II) XINPUT: Adding extended input device "ADS7846 Touchscreen" (type: TOUCHSCREEN, id 6)
+[    28.409] (II) evdev: ADS7846 Touchscreen: initialized for absolute axes.
+[    28.410] (**) ADS7846 Touchscreen: (accel) keeping acceleration scheme 1
+[    28.410] (**) ADS7846 Touchscreen: (accel) acceleration profile 0
+[    28.411] (**) ADS7846 Touchscreen: (accel) acceleration factor: 2.000
+[    28.411] (**) ADS7846 Touchscreen: (accel) acceleration threshold: 4
+[    28.414] (II) config/udev: Adding input device ADS7846 Touchscreen (/dev/input/mouse0)
+[    28.414] (**) ADS7846 Touchscreen: Applying InputClass "calibration"
+[    28.414] (II) No input driver specified, ignoring this device.
+[    28.414] (II) This device may have been added with another device file.
+[    28.417] (II) config/udev: Adding input device retrogame (/dev/input/event1)
+[    28.417] (**) retrogame: Applying InputClass "evdev keyboard catchall"
+[    28.417] (**) retrogame: Applying InputClass "libinput keyboard catchall"
+[    28.417] (**) retrogame: Applying InputClass "evdev keyboard catchall"
+[    28.417] (II) Using input driver 'evdev' for 'retrogame'
+[    28.417] (**) retrogame: always reports core events
+[    28.417] (**) evdev: retrogame: Device: "/dev/input/event1"
+[    28.418] (--) evdev: retrogame: Vendor 0x1 Product 0x1
+[    28.418] (--) evdev: retrogame: Found keys
+[    28.418] (II) evdev: retrogame: Configuring as keyboard
+[    28.418] (**) Option "config_info" "udev:/sys/devices/virtual/input/input1/event1"
+[    28.418] (II) XINPUT: Adding extended input device "retrogame" (type: KEYBOARD, id 7)
+[    28.418] (**) Option "xkb_rules" "evdev"
+[    28.418] (**) Option "xkb_model" "pc105"
+[    28.418] (**) Option "xkb_layout" "gb"

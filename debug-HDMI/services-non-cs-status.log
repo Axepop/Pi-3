@@ -1,0 +1,722 @@
+● auth-rpcgss-module.service - Kernel Module supporting RPCSEC_GSS
+   Loaded: loaded (/lib/systemd/system/auth-rpcgss-module.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:43 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● bluetooth.service - Bluetooth service
+   Loaded: loaded (/lib/systemd/system/bluetooth.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:bluetoothd(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● console-setup.service - Set console font and keymap
+   Loaded: loaded (/lib/systemd/system/console-setup.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+ Main PID: 286 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/console-setup.service
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Set console font and keymap...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Set console font and keymap.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● cpufrequtils.service - LSB: set CPUFreq kernel parameters
+   Loaded: loaded (/etc/init.d/cpufrequtils; generated; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:17:04 UTC; 2 years 5 months ago
+     Docs: man:systemd-sysv-generator(8)
+   CGroup: /system.slice/cpufrequtils.service
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Starting LSB: set CPUFreq kernel parameters...
+Nov 03 17:17:04 CRANKSHAFT-NG cpufrequtils[2447]: CPUFreq Utilities: Setting performance CPUFreq governor...CPU0...CPU1...CPU2...CPU3...done.
+Nov 03 17:17:04 CRANKSHAFT-NG systemd[1]: Started LSB: set CPUFreq kernel parameters.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● dbus.service - D-Bus System Message Bus
+   Loaded: loaded (/lib/systemd/system/dbus.service; static; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:dbus-daemon(1)
+ Main PID: 350 (dbus-daemon)
+   CGroup: /system.slice/dbus.service
+           └─350 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+
+Nov 03 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov 03 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov 03 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov 03 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov 03 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● dhcpcd.service - dhcpcd on all interfaces
+   Loaded: loaded (/lib/systemd/system/dhcpcd.service; enabled; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/dhcpcd.service.d
+           └─wait.conf
+   Active: active (running) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2414 (dhcpcd)
+   CGroup: /system.slice/dhcpcd.service
+           ├─1404 wpa_supplicant -B -c/etc/wpa_supplicant/wpa_supplicant.conf -iwlan0 -Dnl80211,wext
+           └─2414 /sbin/dhcpcd -q -w
+
+Nov 03 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding address fe80::32fe:4d5:ebb4:bf3d
+Nov 03 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting an IPv6 router
+Nov 03 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting a DHCP lease
+Nov 03 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: offered 192.168.1.241 from 192.168.1.1
+Nov 03 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: probing address 192.168.1.241/24
+Nov 03 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: leased 192.168.1.241 for 86400 seconds
+Nov 03 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding route to 192.168.1.0/24
+Nov 03 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding default route via 192.168.1.1
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started dhcpcd on all interfaces.
+Nov 03 17:17:10 CRANKSHAFT-NG dhcpcd[2414]: wlan0: no IPv6 Routers available
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● dundee.service - DUN service
+   Loaded: loaded (/lib/systemd/system/dundee.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:48 UTC; 2 years 5 months ago
+ Main PID: 409 (dundee)
+   CGroup: /system.slice/dundee.service
+           └─409 /usr/sbin/dundee -n
+
+Nov 03 17:16:48 CRANKSHAFT-NG systemd[1]: Starting DUN service...
+Nov 03 17:16:48 CRANKSHAFT-NG dundee[409]: oFono version 1.18
+Nov 03 17:16:48 CRANKSHAFT-NG systemd[1]: Started DUN service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● emergency.service - Emergency Shell
+   Loaded: loaded (/lib/systemd/system/emergency.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:sulogin(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● getty-static.service - getty on tty2-tty6 if dbus and logind are not available
+   Loaded: loaded (/lib/systemd/system/getty-static.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● getty@tty1.service - Getty on tty1
+   Loaded: loaded (/lib/systemd/system/getty@.service; enabled; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/getty@tty1.service.d
+           └─noclear.conf
+   Active: active (running) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+     Docs: man:agetty(8)
+           man:systemd-getty-generator(8)
+           http://0pointer.de/blog/projects/serial-console.html
+ Main PID: 2491 (agetty)
+   CGroup: /system.slice/system-getty.slice/getty@tty1.service
+           └─2491 /sbin/agetty --noclear tty1 linux
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty1.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● getty@tty3.service - Getty on tty3
+   Loaded: loaded (/lib/systemd/system/getty@.service; enabled; vendor preset: enabled)
+  Drop-In: /etc/systemd/system/getty@tty3.service.d
+           └─noclear.conf
+   Active: active (running) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+     Docs: man:agetty(8)
+           man:systemd-getty-generator(8)
+           http://0pointer.de/blog/projects/serial-console.html
+ Main PID: 2488 (agetty)
+   CGroup: /system.slice/system-getty.slice/getty@tty3.service
+           └─2488 /sbin/agetty --noclear tty3 linux
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty3.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● hciuart.service - Configure Bluetooth Modems connected by UART
+   Loaded: loaded (/lib/systemd/system/hciuart.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● keyboard-setup.service - Set the console keyboard layout
+   Loaded: loaded (/lib/systemd/system/keyboard-setup.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+ Main PID: 93 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/keyboard-setup.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Set the console keyboard layout.
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● kmod-static-nodes.service - Create list of required static device nodes for the current kernel
+   Loaded: loaded (/lib/systemd/system/kmod-static-nodes.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+ Main PID: 84 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/kmod-static-nodes.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Create list of required static device nodes for the current kernel.
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● loadcpufreq.service - LSB: Load kernel modules needed to enable cpufreq scaling
+   Loaded: loaded (/etc/init.d/loadcpufreq; generated; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:48 UTC; 2 years 5 months ago
+     Docs: man:systemd-sysv-generator(8)
+   CGroup: /system.slice/loadcpufreq.service
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting LSB: Load kernel modules needed to enable cpufreq scaling...
+Nov 03 17:16:48 CRANKSHAFT-NG loadcpufreq[343]: Loading cpufreq kernel modules...done (none).
+Nov 03 17:16:48 CRANKSHAFT-NG systemd[1]: Started LSB: Load kernel modules needed to enable cpufreq scaling.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● networking.service - Raise network interfaces
+   Loaded: loaded (/lib/systemd/system/networking.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:interfaces(5)
+ Main PID: 289 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/networking.service
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Raise network interfaces...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Raise network interfaces.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● nfs-config.service - Preprocess NFS configuration
+   Loaded: loaded (/lib/systemd/system/nfs-config.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+ Main PID: 284 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Preprocess NFS configuration...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Preprocess NFS configuration.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● nfs-utils.service - NFS server and client services
+   Loaded: loaded (/lib/systemd/system/nfs-utils.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-poweroff.service - Show Plymouth Power Off Screen
+   Loaded: loaded (/lib/systemd/system/plymouth-poweroff.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-quit-wait.service - Hold until boot process finishes up
+   Loaded: loaded (/lib/systemd/system/plymouth-quit-wait.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2445 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Hold until boot process finishes up...
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Hold until boot process finishes up.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-quit.service - Terminate Plymouth Boot Screen
+   Loaded: loaded (/lib/systemd/system/plymouth-quit.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 2441 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Terminate Plymouth Boot Screen.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data
+   Loaded: loaded (/lib/systemd/system/plymouth-read-write.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+ Main PID: 279 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-reboot.service - Show Plymouth Reboot Screen
+   Loaded: loaded (/lib/systemd/system/plymouth-reboot.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● plymouth-start.service - Show Plymouth Boot Screen
+   Loaded: loaded (/lib/systemd/system/plymouth-start.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+ Main PID: 265 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:46 CRANKSHAFT-NG systemd[1]: Starting Show Plymouth Boot Screen...
+Nov 03 17:16:46 CRANKSHAFT-NG systemd[1]: Started Show Plymouth Boot Screen.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rc-local.service - /etc/rc.local Compatibility
+   Loaded: loaded (/lib/systemd/system/rc-local.service; static; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/rc-local.service.d
+           └─debian.conf
+        /etc/systemd/system/rc-local.service.d
+           └─ttyoutput.conf
+   Active: active (exited) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+   CGroup: /system.slice/rc-local.service
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Starting /etc/rc.local Compatibility...
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started /etc/rc.local Compatibility.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● regenerate_ssh_host_keys.service - Regenerate SSH host keys
+   Loaded: loaded (/lib/systemd/system/regenerate_ssh_host_keys.service; disabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rescue.service - Rescue Shell
+   Loaded: loaded (/lib/systemd/system/rescue.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:sulogin(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rpc-gssd.service - RPC security service for NFS client and server
+   Loaded: loaded (/lib/systemd/system/rpc-gssd.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rpc-svcgssd.service - RPC security service for NFS server
+   Loaded: loaded (/lib/systemd/system/rpc-svcgssd.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rpi-display-backlight.service - Turns off Raspberry Pi display backlight on shutdown/reboot
+   Loaded: loaded (/lib/systemd/system/rpi-display-backlight.service; enabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rsync.service - fast remote file copy program daemon
+   Loaded: loaded (/lib/systemd/system/rsync.service; enabled; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● rsyslog.service - System Logging Service
+   Loaded: loaded (/lib/systemd/system/rsyslog.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:48 UTC; 2 years 5 months ago
+     Docs: man:rsyslogd(8)
+           http://www.rsyslog.com/doc/
+ Main PID: 349 (rsyslogd)
+   CGroup: /system.slice/rsyslog.service
+           └─349 /usr/sbin/rsyslogd -n
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting System Logging Service...
+Nov 03 17:16:47 CRANKSHAFT-NG liblogging-stdlog[349]:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="349" x-info="http://www.rsyslog.com"] start
+Nov 03 17:16:48 CRANKSHAFT-NG systemd[1]: Started System Logging Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● serial-getty@ttyS0.service - Serial Getty on ttyS0
+   Loaded: loaded (/lib/systemd/system/serial-getty@.service; disabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+     Docs: man:agetty(8)
+           man:systemd-getty-generator(8)
+           http://0pointer.de/blog/projects/serial-console.html
+ Main PID: 2490 (agetty)
+   CGroup: /system.slice/system-serial\x2dgetty.slice/serial-getty@ttyS0.service
+           └─2490 /sbin/agetty --keep-baud 115200,38400,9600 ttyS0 vt220
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Serial Getty on ttyS0.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● ssh.service - OpenBSD Secure Shell server
+   Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:17:04 UTC; 2 years 5 months ago
+ Main PID: 2644 (sshd)
+   CGroup: /system.slice/ssh.service
+           ├─2644 /usr/sbin/sshd -D
+           ├─3245 sshd: pi [priv]
+           ├─3255 sshd: pi@pts/0
+           ├─3258 -bash
+           ├─4870 /bin/bash /usr/local/bin/crankshaft debuglog
+           ├─6078 sudo systemctl status ssh.service
+           └─6082 systemctl status ssh.service
+
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6054]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6054]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6062]:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/systemctl status rsyslog.service
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6062]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6062]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6070]:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/systemctl status serial-getty@ttyS0.service
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6070]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6070]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6078]:       pi : TTY=pts/0 ; PWD=/home/pi ; USER=root ; COMMAND=/bin/systemctl status ssh.service
+Apr 08 13:37:13 CRANKSHAFT-NG sudo[6078]: pam_unix(sudo:session): session opened for user root by pi(uid=0)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● sshswitch.service - Turn on SSH if /boot/ssh is present
+   Loaded: loaded (/lib/systemd/system/sshswitch.service; enabled; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-ask-password-console.service - Dispatch Password Requests to Console
+   Loaded: loaded (/lib/systemd/system/systemd-ask-password-console.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-ask-password-console.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-ask-password-plymouth.service - Forward Password Requests to Plymouth
+   Loaded: loaded (/lib/systemd/system/systemd-ask-password-plymouth.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: http://www.freedesktop.org/wiki/Software/systemd/PasswordAgents
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-ask-password-wall.service - Forward Password Requests to Wall
+   Loaded: loaded (/lib/systemd/system/systemd-ask-password-wall.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-ask-password-console.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-binfmt.service - Set Up Additional Binary Formats
+   Loaded: loaded (/lib/systemd/system/systemd-binfmt.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:43 UTC; 2 years 5 months ago
+     Docs: man:systemd-binfmt.service(8)
+           man:binfmt.d(5)
+           https://www.kernel.org/doc/Documentation/binfmt_misc.txt
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-fsck-root.service - File System Check on Root Device
+   Loaded: loaded (/lib/systemd/system/systemd-fsck-root.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:systemd-fsck-root.service(8)
+ Main PID: 88 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-fsck-root.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd-fsck[88]: rootfs: Superblock last mount time is in the future.
+Nov 03 17:16:44 CRANKSHAFT-NG systemd-fsck[88]:         (by less than a day, probably due to the hardware clock being incorrectly set)
+Nov 03 17:16:44 CRANKSHAFT-NG systemd-fsck[88]: rootfs: clean, 53319/477120 files, 395914/1947392 blocks
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started File System Check on Root Device.
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-fsck@dev-mmcblk0p1.service - File System Check on /dev/mmcblk0p1
+   Loaded: loaded (/lib/systemd/system/systemd-fsck@.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:46 UTC; 2 years 5 months ago
+     Docs: man:systemd-fsck@.service(8)
+ Main PID: 255 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:46 CRANKSHAFT-NG systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-fsck[255]: fsck.fat 4.1 (2017-01-24)
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-fsck[255]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-fsck[255]:  Automatically removing dirty bit.
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-fsck[255]: Performing changes.
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-fsck[255]: /dev/mmcblk0p1: 208 files, 45548/87924 clusters
+Nov 03 17:16:46 CRANKSHAFT-NG systemd[1]: Started File System Check on /dev/mmcblk0p1.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-fsckd.service - File System Check Daemon to report status
+   Loaded: loaded (/lib/systemd/system/systemd-fsckd.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:17:17 UTC; 2 years 5 months ago
+     Docs: man:systemd-fsckd.service(8)
+ Main PID: 112 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started File System Check Daemon to report status.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-hwdb-update.service - Rebuild Hardware Database
+   Loaded: loaded (/lib/systemd/system/systemd-hwdb-update.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:hwdb(7)
+           man:systemd-hwdb(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-initctl.service - /dev/initctl Compatibility Daemon
+   Loaded: loaded (/lib/systemd/system/systemd-initctl.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-initctl.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-journal-flush.service - Flush Journal to Persistent Storage
+   Loaded: loaded (/lib/systemd/system/systemd-journal-flush.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:46 UTC; 2 years 5 months ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 173 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-journal-flush.service
+
+Nov 03 17:16:45 CRANKSHAFT-NG systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov 03 17:16:46 CRANKSHAFT-NG systemd[1]: Started Flush Journal to Persistent Storage.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-journald.service - Journal Service
+   Loaded: loaded (/lib/systemd/system/systemd-journald.service; static; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:systemd-journald.service(8)
+           man:journald.conf(5)
+ Main PID: 107 (systemd-journal)
+   Status: "Processing requests..."
+   CGroup: /system.slice/systemd-journald.service
+           └─107 /lib/systemd/systemd-journald
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd-journald[107]: Journal started
+Nov 03 17:16:44 CRANKSHAFT-NG systemd-journald[107]: Runtime journal (/run/log/journal/c329b840a0f44377becca4bcfd901c64) is 5.7M, max 46.3M, 40.5M free.
+Nov 03 17:16:46 CRANKSHAFT-NG systemd-journald[107]: Runtime journal (/run/log/journal/c329b840a0f44377becca4bcfd901c64) is 5.7M, max 46.3M, 40.5M free.
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-logind.service - Login Service
+   Loaded: loaded (/lib/systemd/system/systemd-logind.service; static; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:48 UTC; 2 years 5 months ago
+     Docs: man:systemd-logind.service(8)
+           man:logind.conf(5)
+           http://www.freedesktop.org/wiki/Software/systemd/logind
+           http://www.freedesktop.org/wiki/Software/systemd/multiseat
+ Main PID: 348 (systemd-logind)
+   Status: "Processing requests..."
+   CGroup: /system.slice/systemd-logind.service
+           └─348 /lib/systemd/systemd-logind
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Login Service...
+Nov 03 17:16:48 CRANKSHAFT-NG systemd-logind[348]: New seat seat0.
+Nov 03 17:16:48 CRANKSHAFT-NG systemd[1]: Started Login Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-machine-id-commit.service - Commit a transient machine-id on disk
+   Loaded: loaded (/lib/systemd/system/systemd-machine-id-commit.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+Condition: start condition failed at Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:systemd-machine-id-commit.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-modules-load.service - Load Kernel Modules
+   Loaded: loaded (/lib/systemd/system/systemd-modules-load.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:systemd-modules-load.service(8)
+           man:modules-load.d(5)
+ Main PID: 86 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-modules-load.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Load Kernel Modules.
+Warning: Journal has been rotated since unit was started. Log output is incomplete or unavailable.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-poweroff.service - Power-Off
+   Loaded: loaded (/lib/systemd/system/systemd-poweroff.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-halt.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-quotacheck.service - File System Quota Check
+   Loaded: loaded (/lib/systemd/system/systemd-quotacheck.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-quotacheck.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-random-seed.service - Load/Save Random Seed
+   Loaded: loaded (/lib/systemd/system/systemd-random-seed.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:45 UTC; 2 years 5 months ago
+     Docs: man:systemd-random-seed.service(8)
+           man:random(4)
+ Main PID: 127 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-random-seed.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Starting Load/Save Random Seed...
+Nov 03 17:16:45 CRANKSHAFT-NG systemd[1]: Started Load/Save Random Seed.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-reboot.service - Reboot
+   Loaded: loaded (/lib/systemd/system/systemd-reboot.service; static; vendor preset: enabled)
+   Active: inactive (dead)
+     Docs: man:systemd-halt.service(8)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-remount-fs.service - Remount Root and Kernel File Systems
+   Loaded: loaded (/lib/systemd/system/systemd-remount-fs.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:systemd-remount-fs.service(8)
+           http://www.freedesktop.org/wiki/Software/systemd/APIFileSystems
+ Main PID: 113 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-remount-fs.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Remount Root and Kernel File Systems.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-sysctl.service - Apply Kernel Variables
+   Loaded: loaded (/lib/systemd/system/systemd-sysctl.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:systemd-sysctl.service(8)
+           man:sysctl.d(5)
+ Main PID: 117 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-sysctl.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Starting Apply Kernel Variables...
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Apply Kernel Variables.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-timesyncd.service - Network Time Synchronization
+   Loaded: loaded (/lib/systemd/system/systemd-timesyncd.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/systemd-timesyncd.service.d
+           └─disable-with-time-daemon.conf
+   Active: active (running) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:systemd-timesyncd.service(8)
+ Main PID: 301 (systemd-timesyn)
+   Status: "Synchronized to time server 185.19.184.35:123 (2.debian.pool.ntp.org)."
+   CGroup: /system.slice/systemd-timesyncd.service
+           └─301 /lib/systemd/systemd-timesyncd
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Network Time Synchronization...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Network Time Synchronization.
+Nov 03 17:17:27 CRANKSHAFT-NG systemd-timesyncd[301]: Timed out waiting for reply from 213.251.52.250:123 (2.debian.pool.ntp.org).
+Apr 08 13:35:26 CRANKSHAFT-NG systemd-timesyncd[301]: Synchronized to time server 185.19.184.35:123 (2.debian.pool.ntp.org).
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev
+   Loaded: loaded (/lib/systemd/system/systemd-tmpfiles-setup-dev.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:44 UTC; 2 years 5 months ago
+     Docs: man:tmpfiles.d(5)
+           man:systemd-tmpfiles(8)
+ Main PID: 121 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-tmpfiles-setup-dev.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Started Create Static Device Nodes in /dev.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-udev-trigger.service - udev Coldplug all Devices
+   Loaded: loaded (/lib/systemd/system/systemd-udev-trigger.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:45 UTC; 2 years 5 months ago
+     Docs: man:udev(7)
+           man:systemd-udevd.service(8)
+ Main PID: 172 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-udev-trigger.service
+
+Nov 03 17:16:44 CRANKSHAFT-NG systemd[1]: Starting udev Coldplug all Devices...
+Nov 03 17:16:45 CRANKSHAFT-NG systemd[1]: Started udev Coldplug all Devices.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-udevd.service - udev Kernel Device Manager
+   Loaded: loaded (/lib/systemd/system/systemd-udevd.service; static; vendor preset: enabled)
+   Active: active (running) since Thu 2016-11-03 17:16:45 UTC; 2 years 5 months ago
+     Docs: man:systemd-udevd.service(8)
+           man:udev(7)
+ Main PID: 125 (systemd-udevd)
+   Status: "Processing with 16 children at max"
+   CGroup: /system.slice/systemd-udevd.service
+           └─125 /lib/systemd/systemd-udevd
+
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3205]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3213]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3213]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3213]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3221]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3221]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3221]: pam_unix(sudo:session): session closed for user root
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3232]:     root : TTY=unknown ; PWD=/ ; USER=root ; COMMAND=/bin/rm /tmp/android_device
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3232]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Apr 08 13:36:03 CRANKSHAFT-NG sudo[3232]: pam_unix(sudo:session): session closed for user root
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-update-utmp-runlevel.service - Update UTMP about System Runlevel Changes
+   Loaded: loaded (/lib/systemd/system/systemd-update-utmp-runlevel.service; static; vendor preset: enabled)
+   Active: inactive (dead) since Thu 2016-11-03 17:17:04 UTC; 2 years 5 months ago
+     Docs: man:systemd-update-utmp.service(8)
+           man:utmp(5)
+ Main PID: 2646 (code=exited, status=0/SUCCESS)
+
+Nov 03 17:17:04 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov 03 17:17:04 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Runlevel Changes.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-update-utmp.service - Update UTMP about System Boot/Shutdown
+   Loaded: loaded (/lib/systemd/system/systemd-update-utmp.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:systemd-update-utmp.service(8)
+           man:utmp(5)
+ Main PID: 298 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-update-utmp.service
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Boot/Shutdown.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● systemd-user-sessions.service - Permit User Sessions
+   Loaded: loaded (/lib/systemd/system/systemd-user-sessions.service; static; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:17:03 UTC; 2 years 5 months ago
+     Docs: man:systemd-user-sessions.service(8)
+ Main PID: 2417 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/systemd-user-sessions.service
+
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Permit User Sessions...
+Nov 03 17:17:03 CRANKSHAFT-NG systemd[1]: Started Permit User Sessions.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● usbrestore.service - USB Backup Restore Service
+   Loaded: loaded (/etc/systemd/system/usbrestore.service; enabled; vendor preset: enabled)
+   Active: active (exited) since Thu 2016-11-03 17:16:49 UTC; 2 years 5 months ago
+ Main PID: 346 (code=exited, status=0/SUCCESS)
+   CGroup: /system.slice/usbrestore.service
+
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[407]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[407]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[458]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 15 up
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[458]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[458]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[485]:     root : TTY=serial0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/gpio -g mode 13 up
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[485]: pam_unix(sudo:session): session opened for user root by (uid=0)
+Nov 03 17:16:48 CRANKSHAFT-NG sudo[485]: pam_unix(sudo:session): session closed for user root
+Nov 03 17:16:49 CRANKSHAFT-NG root[561]: SERV-LOGGER: --------------------------------------------------------------------
+Nov 03 17:16:49 CRANKSHAFT-NG systemd[1]: Started USB Backup Restore Service.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------
+● usbunmount.service - Cranksahft USB Unmount Service
+   Loaded: loaded (/etc/systemd/system/usbunmount.service; enabled; vendor preset: enabled)
+   Active: inactive (dead)
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------

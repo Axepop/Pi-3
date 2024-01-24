@@ -1,0 +1,19 @@
+● systemd-tmpfiles-setup.service - Create Volatile Files and Directories
+   Loaded: loaded (/lib/systemd/system/systemd-tmpfiles-setup.service; static; vendor preset: enabled)
+   Active: failed (Result: exit-code) since Thu 2016-11-03 17:16:47 UTC; 2 years 5 months ago
+     Docs: man:tmpfiles.d(5)
+           man:systemd-tmpfiles(8)
+ Main PID: 282 (code=exited, status=1/FAILURE)
+
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Create Volatile Files and Directories...
+Nov 03 17:16:47 CRANKSHAFT-NG systemd-tmpfiles[282]: symlink(../proc/self/mounts, /etc/mtab) failed: Read-only file system
+Nov 03 17:16:47 CRANKSHAFT-NG systemd-tmpfiles[282]: chmod(/var/lib/sudo) failed: Read-only file system
+Nov 03 17:16:47 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/sudo/ts does not exist and cannot be created as the file system is read-only.
+Nov 03 17:16:47 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/systemd/coredump does not exist and cannot be created as the file system is read-only.
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Main process exited, code=exited, status=1/FAILURE
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: Failed to start Create Volatile Files and Directories.
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Unit entered failed state.
+Nov 03 17:16:47 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Failed with result 'exit-code'.
+----------------------------------------------------------------------------------------------------
+####################################################################################################
+----------------------------------------------------------------------------------------------------

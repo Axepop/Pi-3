@@ -1,0 +1,28 @@
+Bus       : 001
+Device    : 004
+Model ID  : 7800
+Vendor ID : 0424
+Model     : 7800 ()
+Vendor    : 0424 (Standard Microsystems Corp.)
+-------------------------------------------------------------
+Bus       : 001
+Device    : 003
+Model ID  : 2514
+Vendor ID : 0424
+Model     : 2514 (USB 2.0 Hub)
+Vendor    : 0424 (Standard Microsystems Corp.)
+-------------------------------------------------------------
+Bus       : 001
+Device    : 002
+Model ID  : 2514
+Vendor ID : 0424
+Model     : 2514 (USB 2.0 Hub)
+Vendor    : 0424 (Standard Microsystems Corp.)
+-------------------------------------------------------------
+Bus       : 001
+Device    : 001
+Model ID  : 0002
+Vendor ID : 1d6b
+Model     : DWC_OTG_Controller (2.0 root hub)
+Vendor    : Linux_4.14.98-v7+_dwc_otg_hcd (Linux Foundation)
+-------------------------------------------------------------

@@ -1,0 +1,705 @@
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-modules-load[86]: Module 'bcm2835_wdt' is builtin
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: rootfs: Superblock last mount time is in the future.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: #011(by less than a day, probably due to the hardware clock being incorrectly set)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-fsck[88]: rootfs: clean, 53319/477120 files, 395914/1947392 blocks
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Create list of required static device nodes for the current kernel.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Load Kernel Modules.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started File System Check on Root Device.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started File System Check Daemon to report status.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Remount Root and Kernel File Systems...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Apply Kernel Variables...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Booting Linux on physical CPU 0x0
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Linux version 4.14.98-v7+ (dom@dom-XPS-13-9370) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611)) #1200 SMP Tue Feb 12 20:27:48 GMT 2019
+Nov  3 17:16:47 CRANKSHAFT-NG systemd-sysctl[117]: Couldn't write '10' to 'kernel-panic', ignoring: No such file or directory
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] CPU: div instructions available: patching division code
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting Configuration File System...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] OF: fdt: Machine model: Raspberry Pi 3 Model B Plus Rev 1.3
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Memory policy: Data cache writealloc
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] cma: Reserved 8 MiB at 0x3ac00000
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] On node 0 totalpages: 242688
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Create Static Device Nodes in /dev...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] free_area_init_node: node 0, pgdat 80c85780, node_mem_map ba39f000
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]   Normal zone: 2133 pages used for memmap
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]   Normal zone: 0 pages reserved
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]   Normal zone: 242688 pages, LIFO batch:31
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted Configuration File System.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] percpu: Embedded 17 pages/cpu @ba347000 s38720 r8192 d22720 u69632
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] pcpu-alloc: s38720 r8192 d22720 u69632 alloc=17*4096
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 240555
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Set the console keyboard layout.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 logo.nologo
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Remount Root and Kernel File Systems.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Memory: 940228K/970752K available (7168K kernel code, 577K rwdata, 2080K rodata, 1024K init, 698K bss, 22332K reserved, 8192K cma-reserved)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Virtual kernel memory layout:
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Apply Kernel Variables.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]     vmalloc : 0xbb800000 - 0xff800000   (1088 MB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]     lowmem  : 0x80000000 - 0xbb400000   ( 948 MB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]     modules : 0x7f000000 - 0x80000000   (  16 MB)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Started Create Static Device Nodes in /dev.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]       .text : 0x80008000 - 0x80800000   (8160 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]       .init : 0x80b00000 - 0x80c00000   (1024 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]       .data : 0x80c00000 - 0x80c906d4   ( 578 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting udev Kernel Device Manager...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000]        .bss : 0x80c97ef8 - 0x80d468f0   ( 699 kB)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] ftrace: allocating 25298 entries in 75 pages
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] Hierarchical RCU implementation.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting udev Coldplug all Devices...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] arch_timer: cp15 timer(s) running at 19.20MHz (phys).
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000007] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Starting Load/Save Random Seed...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000022] Switching to timer-based delay loop, resolution 52ns
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000275] Console: colour dummy device 80x30
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000828] console [tty1] enabled
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000869] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.000910] pid_max: default: 32768 minimum: 301
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Reached target Local File Systems (Pre).
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.001247] Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.001281] Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.002242] Disabling memory control group subsystem
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/alsa...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.002335] CPU: Testing write buffer coherency: ok
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.002769] CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.003192] Setting up static identity map for 0x100000 - 0x10003c
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.003332] Hierarchical SRCU implementation.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.004029] smp: Bringing up secondary CPUs ...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: tmp.mount: Directory /tmp to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.004839] CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /tmp...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.005693] CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.006524] CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.006630] smp: Brought up 1 node, 4 CPUs
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/pulse...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.006705] SMP: Total of 4 processors activated (153.60 BogoMIPS).
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.006727] CPU: All CPU(s) started in HYP mode.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.006745] CPU: Virtualization extensions available.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/tmp...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.007681] devtmpfs: initialized
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.018304] random: get_random_u32 called from bucket_table_alloc+0xfc/0x24c with crng_init=0
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /media/USBDRIVES...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.019013] VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-lib-samba.mount: Directory /var/lib/samba to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.019257] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.019301] futex hash table entries: 1024 (order: 4, 65536 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.019880] pinctrl core: initialized pinctrl subsystem
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.020686] NET: Registered protocol family 16
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.023315] DMA: preallocated 1024 KiB pool for atomic coherent allocations
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.028252] hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.028285] hw-breakpoint: maximum watchpoint size is 8 bytes.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/samba...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.028523] Serial: AMBA PL011 UART driver
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.030243] bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.030724] uart-pl011 3f201000.serial: could not find pctldev for node /soc/gpio@7e200000/uart0_pins, deferring probe
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.062991] bcm2835-dma 3f007000.dma: DMA legacy API manager at bb813000, dmachans=0x1
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.064479] SCSI subsystem initialized
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dhcpcd5...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.064730] usbcore: registered new interface driver usbfs
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.064800] usbcore: registered new interface driver hub
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.064903] usbcore: registered new device driver usb
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.070068] raspberrypi-firmware soc:firmware: Attached to firmware from 2019-02-12 19:42
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/cache/samba...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.071436] clocksource: Switched to clocksource arch_sys_counter
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.148206] VFS: Disk quotas dquot_6.6.0
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.148321] VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.148523] FS-Cache: Loaded
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dhcp...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.148736] CacheFiles: Loaded
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.157761] NET: Registered protocol family 2
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.158501] TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.158632] TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-spool.mount: Directory /var/spool to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.158834] TCP: Hash tables configured (established 8192 bind 8192)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.158979] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159041] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/spool...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159286] NET: Registered protocol family 1
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159758] RPC: Registered named UNIX socket transport module.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159782] RPC: Registered udp transport module.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159801] RPC: Registered tcp transport module.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: var-log.mount: Directory /var/log to mount over is not empty, mounting anyway.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.159821] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.161368] hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.164171] workingset: timestamp_bits=14 max_order=18 bucket_order=4
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/log...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.172395] FS-Cache: Netfs 'nfs' registered for caching
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.173025] NFS: Registering the id_resolver key type
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.173069] Key type id_resolver registered
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.173089] Key type id_legacy registered
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.173118] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /media/MYMEDIA...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175072] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 251)
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175233] io scheduler noop registered
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175255] io scheduler deadline registered (default)
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounting /var/lib/dbus...
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175444] io scheduler cfq registered
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175465] io scheduler mq-deadline registered
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.175486] io scheduler kyber registered
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /tmp.
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.177843] BCM2708FB: allocated DMA memory fad00000
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.177889] BCM2708FB: allocated DMA channel 0 @ bb813000
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.228044] Console: switching to colour frame buffer device 228x61
+Nov  3 17:16:47 CRANKSHAFT-NG kernel: [    0.259536] Serial: 8250/16550 driver, 1 ports, IRQ sharing enabled
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/tmp.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/log.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/spool.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/alsa.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/pulse.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dbus.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dhcp.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/dhcpcd5.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/lib/samba.
+Nov  3 17:16:47 CRANKSHAFT-NG systemd[1]: Mounted /var/cache/samba.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /media/MYMEDIA.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /media/USBDRIVES.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started udev Kernel Device Manager.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Load/Save Random Seed.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Flush Journal to Persistent Storage...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.config-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.cache-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.config-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.cache-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.local-pi...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.local-root...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/bluetooth...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /tmp/.backlight...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.backlight.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/bluetooth.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.local-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.config-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.cache-pi.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.local-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.config-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /tmp/.cache-root.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started udev Coldplug all Devices.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Found device /dev/ttyS0.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Flush Journal to Persistent Storage.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Sound Card.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Show Plymouth Boot Screen...
+Nov  3 17:16:48 CRANKSHAFT-NG mtp-probe: checking bus 1, device 4: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.1/1-1.1.1"
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Found device /dev/mmcblk0p1.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting File System Check on /dev/mmcblk0p1...
+Nov  3 17:16:48 CRANKSHAFT-NG mtp-probe: bus: 1, device: 4 was not an MTP device
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+20 from PID 265 (plymouthd).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Show Plymouth Boot Screen.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Forward Password Requests to Plymouth Directory Watch.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Paths.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Encrypted Volumes.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: fsck.fat 4.1 (2017-01-24)
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: 0x41: Dirty bit is set. Fs was not properly unmounted and some data may be corrupt.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]:  Automatically removing dirty bit.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: Performing changes.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-fsck[255]: /dev/mmcblk0p1: 208 files, 45548/87924 clusters
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started File System Check on /dev/mmcblk0p1.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounting /boot...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Mounted /boot.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Local File Systems.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Tell Plymouth To Write Out Runtime Data...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Raise network interfaces...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Create Volatile Files and Directories...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Preprocess NFS configuration...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Set console font and keymap...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Tell Plymouth To Write Out Runtime Data.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Preprocess NFS configuration.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target NFS client services.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Remote File Systems (Pre).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Remote File Systems.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.261145] bcm2835-rng 3f104000.rng: hwrng registered
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.261472] vc-mem: phys_addr:0x00000000 mem_base=0x3ec00000 mem_size:0x40000000(1024 MiB)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.262198] vc-sm: Videocore shared memory driver
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.262614] gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.272654] brd: module loaded
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.281919] loop: module loaded
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.282056] Loading iSCSI transport class v2.0-870.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.282884] libphy: Fixed MDIO Bus: probed
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.283117] usbcore: registered new interface driver lan78xx
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.283343] usbcore: registered new interface driver smsc95xx
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.283522] dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.311634] dwc_otg 3f980000.usb: base=0xf0980000
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.511983] Core Release: 2.80a
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.512089] Setting default values for core params
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.512260] Finished setting default values for core params
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.712677] Using Buffer DMA mode
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.712785] Periodic Transfer Interrupt Enhancement - disabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.712953] Multiprocessor Interrupt Enhancement - disabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.713115] OTG VER PARAM: 0, OTG VER FLAG: 0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.713249] Dedicated Tx FIFOs mode
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.713780] WARN::dwc_otg_hcd_init:1046: FIQ DMA bounce buffers: virt = 0xbad14000 dma = 0xfad14000 len=9024
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714076] FIQ FSM acceleration enabled for :
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714076] Non-periodic Split Transactions
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714076] Periodic Split Transactions
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714076] High-Speed Isochronous Endpoints
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714076] Interrupt/Control Split Transaction hack enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714680] dwc_otg: Microframe scheduler enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714732] WARN::hcd_init_fiq:459: FIQ on core 1 at 0x805ed94c
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.714910] WARN::hcd_init_fiq:460: FIQ ASM at 0x805edcb4 length 36
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.715097] WARN::hcd_init_fiq:486: MPHI regs_base at 0xf0006000
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.715316] dwc_otg 3f980000.usb: DWC OTG Controller
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.722777] dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.730328] dwc_otg 3f980000.usb: irq 62, io mem 0x00000000
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.737767] Init: Port Power? op_state=1
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.745164] Init: Power Port (0)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.752664] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.760018] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.767425] usb usb1: Product: DWC OTG Controller
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.774709] usb usb1: Manufacturer: Linux 4.14.98-v7+ dwc_otg_hcd
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.782108] usb usb1: SerialNumber: 3f980000.usb
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.790029] hub 1-0:1.0: USB hub found
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.797504] hub 1-0:1.0: 1 port detected
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.805355] dwc_otg: FIQ enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.805361] dwc_otg: NAK holdoff enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.805366] dwc_otg: FIQ split-transaction FSM enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.805376] Module dwc_common_port init
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.805626] usbcore: registered new interface driver usb-storage
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.813235] mousedev: PS/2 mouse device common for all mice
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.820584] IR NEC protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.827861] IR RC5(x/sz) protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.835121] IR RC6 protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.842305] IR JVC protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.849458] IR Sony protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.856602] IR SANYO protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.863764] IR Sharp protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.870726] IR MCE Keyboard/mouse protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.877727] IR XMP protocol handler initialized
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.885486] bcm2835-wdt 3f100000.watchdog: Broadcom BCM2835 watchdog timer
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.892842] bcm2835-cpufreq: min=600000 max=1400000
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.900348] sdhci: Secure Digital Host Controller Interface driver
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.907556] sdhci: Copyright(c) Pierre Ossman
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.915314] mmc-bcm2835 3f300000.mmc: could not get clk, deferring probe
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.922963] sdhost-bcm2835 3f202000.mmc: could not get clk, deferring probe
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.930510] sdhci-pltfm: SDHCI platform and OF driver helper
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.939352] ledtrig-cpu: registered to indicate activity on CPUs
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.946944] hidraw: raw HID events driver (C) Jiri Kosina
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.954512] usbcore: registered new interface driver usbhid
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.961894] usbhid: USB HID core driver
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.969750] vchiq: vchiq_init_state: slot_zero = bad80000, is_master = 0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.978623] [vc_sm_connected_init]: start
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.988634] [vc_sm_connected_init]: end - returning 0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    0.996560] Initializing XFRM netlink socket
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.003752] NET: Registered protocol family 17
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.011038] Key type dns_resolver registered
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.018676] Registering SWP/SWPB emulation handler
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.021582] Indeed it is in host mode hprt0 = 00021501
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.091996] registered taskstats version 1
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.105235] uart-pl011 3f201000.serial: cts_event_workaround enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.112736] 3f201000.serial: ttyAMA0 at MMIO 0x3f201000 (irq = 87, base_baud = 0) is a PL011 rev2
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.121452] random: fast init done
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.121938] console [ttyS0] disabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.136317] 3f215040.serial: ttyS0 at MMIO 0x0 (irq = 166, base_baud = 31250000) is a 16550
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.241474] usb 1-1: new high-speed USB device number 2 using dwc_otg
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.244798] console [ttyS0] enabled
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.250987] Indeed it is in host mode hprt0 = 00001101
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.259058] mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.501727] usb 1-1: New USB device found, idVendor=0424, idProduct=2514
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.506110] mmc-bcm2835 3f300000.mmc: DMA channel allocated
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.513876] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.659961] mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.666199] hub 1-1:1.0: USB hub found
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.671698] sdhost: log_buf @ bad13000 (fad13000)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.678147] hub 1-1:1.0: 4 ports detected
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    1.703583] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: symlink(../proc/self/mounts, /etc/mtab) failed: Read-only file system
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.021457] usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.024955] mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.151710] usb 1-1.1: New USB device found, idVendor=0424, idProduct=2514
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.157975] mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.159477] usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: chmod(/var/lib/sudo) failed: Read-only file system
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.181456] mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.189676] hub 1-1.1:1.0: USB hub found
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.193745] of_cfs_init
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/sudo/ts does not exist and cannot be created as the file system is read-only.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.214880] hub 1-1.1:1.0: 3 ports detected
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.220217] of_cfs_init: OK
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.289218] mmc0: host does not support reading read-only switch, assuming write-enable
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.329873] Waiting for root device /dev/mmcblk0p2...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd-tmpfiles[282]: /var/lib/systemd/coredump does not exist and cannot be created as the file system is read-only.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.343774] mmc0: new high speed SDHC card at address b368
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.357458] mmcblk0: mmc0:b368 NCard 7.48 GiB
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.371710]  mmcblk0: p1 p2
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Set console font and keymap.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.405907] EXT4-fs (mmcblk0p2): INFO: recovery required on readonly filesystem
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.420801] EXT4-fs (mmcblk0p2): write access will be enabled during recovery
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.443478] mmc1: new high speed SDIO card at address 0001
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    2.591127] dwc_otg_handle_wakeup_detected_intr lxstate = 2
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Main process exited, code=exited, status=1/FAILURE
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Failed to start Create Volatile Files and Directories.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Unit entered failed state.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: systemd-tmpfiles-setup.service: Failed with result 'exit-code'.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Boot/Shutdown...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Network Time Synchronization...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Boot/Shutdown.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Raise network interfaces.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Network Time Synchronization.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target System Initialization.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Listening on D-Bus System Message Bus Socket.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Sockets.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target Basic System.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Pairing Restore Service.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting LSB: Load kernel modules needed to enable cpufreq scaling...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting USB Backup Restore Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Crankshaft alsa state restore...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting Login Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting System Logging Service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started D-Bus System Message Bus.
+Nov  3 17:16:47 CRANKSHAFT-NG liblogging-stdlog:  [origin software="rsyslogd" swVersion="8.24.0" x-pid="349" x-info="http://www.rsyslog.com"] start
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.071466] usb 1-1.1.1: new high-speed USB device number 4 using dwc_otg
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.211875] usb 1-1.1.1: New USB device found, idVendor=0424, idProduct=7800
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.226688] usb 1-1.1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.322542] EXT4-fs (mmcblk0p2): recovery complete
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.340328] EXT4-fs (mmcblk0p2): mounted filesystem with ordered data mode. Opts: (null)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.356384] VFS: Mounted root (ext4 filesystem) readonly on device 179:2.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.385711] devtmpfs: mounted
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.400829] Freeing unused kernel memory: 1024K
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.507481] libphy: lan78xx-mdiobus: probed
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    3.907916] lan78xx 1-1.1.1:1.0 (unnamed net_device) (uninitialized): int urb period 64
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.325347] NET: Registered protocol family 10
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.339092] Segment Routing with IPv6
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.365464] ip_tables: (C) 2000-2006 Netfilter Core Team
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.394832] random: systemd: uninitialized urandom read (16 bytes read)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.525082] random: systemd: uninitialized urandom read (16 bytes read)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    4.617597] random: systemd: uninitialized urandom read (16 bytes read)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    6.466318] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.239206] snd_bcm2835: module is from the staging directory, the quality is unknown, you have been warned.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.243605] bcm2835_alsa bcm2835_alsa: card created with 8 channels
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.517104] brcmfmac: F1 signature read @0x18000000=0x15264345
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.525201] brcmfmac: brcmf_fw_map_chip_to_name: using brcm/brcmfmac43455-sdio.bin for chip 0x004345(17221) rev 0x000006
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.525709] usbcore: registered new interface driver brcmfmac
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.527119] ads7846 spi0.1: spi0.1 supply vcc not found, using dummy regulator
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.527772] ads7846 spi0.1: touchscreen, irq 170
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.529688] input: ADS7846 Touchscreen as /devices/platform/soc/3f204000.spi/spi_master/spi0/spi0.1/input/input0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.646371] fbtft: module is from the staging directory, the quality is unknown, you have been warned.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.669470] fb_ili9486: module is from the staging directory, the quality is unknown, you have been warned.
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670225] fbtft_of_value: regwidth = 16
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670233] fbtft_of_value: buswidth = 8
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670241] fbtft_of_value: debug = 0
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670248] fbtft_of_value: rotate = 270
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670255] fbtft_of_value: fps = 30
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.670262] fbtft_of_value: txbuflen = 32768
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.754886] random: crng init done
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.754901] random: 7 urandom warning(s) missed due to ratelimiting
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.935998] brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: Feb 27 2018 03:15:32 version 7.45.154 (r684107 CY) FWID 01-4fbe0b04
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    8.936593] brcmfmac: brcmf_c_preinit_dcmds: CLM version = API: 12.2 Data: 9.10.105 Compiler: 1.29.4 ClmImport: 1.36.3 Creation: 2018-03-09 18:56:28 
+Nov  3 17:16:48 CRANKSHAFT-NG kernel: [    9.309504] graphics fb1: fb_ili9486 frame buffer, 480x320, 300 KiB video memory, 32 KiB buffer memory, fps=33, spi0.0 at 16 MHz
+Nov  3 17:16:48 CRANKSHAFT-NG dbus[350]: [system] Successfully activated service 'org.freedesktop.systemd1'
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Starting DUN service...
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Reached target System Time Synchronized.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started System Logging Service.
+Nov  3 17:16:48 CRANKSHAFT-NG dundee[409]: oFono version 1.18
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started DUN service.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started Login Service.
+Nov  3 17:16:48 CRANKSHAFT-NG loadcpufreq[343]: Loading cpufreq kernel modules...done (none).
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Started LSB: Load kernel modules needed to enable cpufreq scaling.
+Nov  3 17:16:48 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+20 from PID 265 (plymouthd).
+Nov  3 17:16:48 CRANKSHAFT-NG crankshaft[347]: TERM environment variable not set.
+Nov  3 17:16:48 CRANKSHAFT-NG crankshaft[347]: #033[35m#033[1mCrankshaft Management Tool v2.3.0 is executing command...#033(B#033[m#033[37m
+Nov  3 17:16:49 CRANKSHAFT-NG crankshaft[347]: Alsa state restored
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /usr/local/bin/crankshaft
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Alsa state restored
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG crankshaft[347]: Done.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started Crankshaft alsa state restore.
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Show Screen
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_usbrestore.sh
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: Checking for cs backups to restore...
+Nov  3 17:16:49 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started USB Backup Restore Service.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Started Crankshaft Display Service.
+Nov  3 17:16:49 CRANKSHAFT-NG systemd[1]: Starting Crankshaft USB Detect Service...
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: No device brightness file present
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:50 CRANKSHAFT-NG root: CSMT-LOGGER: Reqeust: unlock system
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: Before: read-only
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG kernel: [   13.378676] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: After : read-write
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: Reqeust: lock system
+Nov  3 17:16:51 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: Before: read-write
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG kernel: [   14.345149] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: After : read-only
+Nov  3 17:16:52 CRANKSHAFT-NG root: CSMT-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft USB Detect Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Timer.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting dhcpcd on all interfaces...
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Night Mode Timer.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO to keyboard mapper.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Debug Mode Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft Dev Mode Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Tap2Wake Service...
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Started Crankshaft I2C Check Service.
+Nov  3 17:16:52 CRANKSHAFT-NG systemd[1]: Starting Crankshaft PulseAudio system server...
+Nov  3 17:16:52 CRANKSHAFT-NG kernel: [   14.676476] input: retrogame as /devices/virtual/input/input1
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Running in system mode, but --disallow-module-loading not set.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Running in system mode, forcibly disabling exit idle time.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: OK, so you are running PA in system mode. Please make sure that you actually do want to do that.
+Nov  3 17:16:52 CRANKSHAFT-NG pulseaudio[892]: Please read http://www.freedesktop.org/wiki/Software/PulseAudio/Documentation/User/WhatIsWrongWithSystemWide/ for an explanation why system mode is usually a bad idea.
+Nov  3 17:16:52 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:52 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wifisetup.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Copy wifi client config and ensure country code is set
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Tap2Wake Service.
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Startup Service...
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG kernel: [   15.347594] brcmfmac: power management disabled
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd[1152]: dev: loaded udev
+Nov  3 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:16:53 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd[1152]: wlan0: starting wpa_supplicant
+Nov  3 17:16:53 CRANKSHAFT-NG dhcpcd-run-hooks[1287]: wlan0: starting wpa_supplicant
+Nov  3 17:16:53 CRANKSHAFT-NG pulseaudio[892]: GetManagedObjects() failed: org.freedesktop.systemd1.NoSuchUnit: Unit dbus-org.bluez.service not found.
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_i2ccheck.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: I2C bus disabled - skip checks.
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_crankshaft.sh
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: Set user permissions /tmp/xxx
+Nov  3 17:16:53 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Started Crankshaft Startup Service.
+Nov  3 17:16:53 CRANKSHAFT-NG systemd[1]: Starting Crankshaft User startup Service...
+Nov  3 17:16:53 CRANKSHAFT-NG kernel: [   15.994305] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+Nov  3 17:16:53 CRANKSHAFT-NG kernel: [   15.994322] brcmfmac: power management disabled
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: Enable Dev Mode OpenAuto
+Nov  3 17:16:54 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG kernel: [   16.310073] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: eth0: waiting for carrier
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: waiting for carrier
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier acquired
+Nov  3 17:16:54 CRANKSHAFT-NG kernel: [   16.322836] EXT4-fs (mmcblk0p2): re-mounted. Opts: (null)
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: DUID 00:01:00:01:1f:ae:2d:94:b8:27:eb:c7:d2:c7
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: IAID eb:c7:d2:c7
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding address fe80::9943:b8d1:fa99:2da2
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier lost
+Nov  3 17:16:54 CRANKSHAFT-NG dhcpcd[1152]: wlan0: deleting address fe80::9943:b8d1:fa99:2da2
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_user_startup.sh
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: User bash script starting...
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_user_startup.sh
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: User python script starting...
+Nov  3 17:16:54 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:54 CRANKSHAFT-NG systemd[1]: Started Crankshaft User startup Service.
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Show Screen
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Stop watchdog.service
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_devmode.sh
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:55 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Show Clear Screen
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG service_pacheck.sh[893]: setterm: $TERM is not defined.
+Nov  3 17:16:56 CRANKSHAFT-NG service_pacheck.sh[893]: setterm: $TERM is not defined.
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Show Cursor
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Pulseaudio: 7
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_pacheck.sh
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: Pulseaudio has detected no inputs!
+Nov  3 17:16:56 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: carrier acquired
+Nov  3 17:16:56 CRANKSHAFT-NG kernel: [   19.142430] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: IAID eb:c7:d2:c7
+Nov  3 17:16:56 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding address fe80::32fe:4d5:ebb4:bf3d
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: TERM environment variable not set.
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: #033[35m#033[1mCrankshaft Management Tool v2.3.0 is executing command...#033(B#033[m#033[37m
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/volume: No such file or directory
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring volume skipped...
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: cat: /boot/crankshaft/capvolume: No such file or directory
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Restoring capture volume skipped...
+Nov  3 17:16:57 CRANKSHAFT-NG crankshaft[1555]: Done.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft PulseAudio system server.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Android Auto Headunit.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Custom Brightness Exec Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft GPIO Trigger Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Timers Startup Service.
+Nov  3 17:16:57 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Hotspot Service.
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting an IPv6 router
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: soliciting a DHCP lease
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: offered 192.168.1.241 from 192.168.1.1
+Nov  3 17:16:57 CRANKSHAFT-NG dhcpcd[1152]: wlan0: probing address 192.168.1.241/24
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_timerstart.sh
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_hotspot.sh
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Skip starting  timers
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: Exec hotspot script NOT possible - no autostart or manual control enabled
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_openauto.sh
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: Restoring settings
+Nov  3 17:16:58 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:16:58 CRANKSHAFT-NG kernel: [   20.791584] Under-voltage detected! (0x00050005)
+Nov  3 17:17:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: chmod: cannot access '/tmp/autoapp_helper_command': No such file or directory
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: Usage: grep [OPTION]... PATTERN [FILE]...
+Nov  3 17:17:00 CRANKSHAFT-NG service_openauto.sh[1646]: Try 'grep --help' for more information.
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: Caller: /opt/crankshaft/service_openauto.sh
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: Starting OpenAuto in X11 Mode
+Nov  3 17:17:02 CRANKSHAFT-NG pi: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: X.Org X Server 1.19.2
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Release Date: 2017-03-02
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: X Protocol Version 11, Revision 0
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Build Operating System: Linux 4.9.41-v7+ armv7l Raspbian
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Current Operating System: Linux CRANKSHAFT-NG 4.14.98-v7+ #1200 SMP Tue Feb 12 20:27:48 GMT 2019 armv7l
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Kernel command line: 8250.nr_uarts=1 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2708_fb.fbswap=1 vc_mem.mem_base=0x3ec00000 vc_mem.mem_size=0x40000000  dwc_otg.lpm_enable=0 console=tty1 console=ttyS0,115200 root=/dev/mmcblk0p2 rootfstype=ext4 elevator=deadline rootwait fbcon=map:10 fbcon=font:ProFont6x11 logo.nologo
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Build Date: 18 October 2017  04:55:30PM
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: xorg-server 2:1.19.2-1+rpt1+deb9u2 (https://www.debian.org/support)
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Current version of pixman: 0.34.0
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011Before reporting problems, check http://wiki.x.org
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011to make sure that you have the latest version.
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: Markers: (--) probed, (**) from config file, (==) default setting,
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011(++) from command line, (!!) notice, (II) informational,
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Log file: "/var/log/Xorg.0.log", Time: Thu Nov  3 17:17:02 2016
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using config directory: "/etc/X11/xorg.conf.d"
+Nov  3 17:17:02 CRANKSHAFT-NG service_openauto.sh[1646]: (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+Nov  3 17:17:02 CRANKSHAFT-NG kernel: [   24.961552] Voltage normalised (0x00000000)
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: leased 192.168.1.241 for 86400 seconds
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding route to 192.168.1.0/24
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: wlan0: adding default route via 192.168.1.1
+Nov  3 17:17:03 CRANKSHAFT-NG dhcpcd[1152]: forked to background, child pid 2414
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started dhcpcd on all interfaces.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Network.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting OpenBSD Secure Shell server...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting /etc/rc.local Compatibility...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Permit User Sessions...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Wifi Monitor Service...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Permit User Sessions.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started /etc/rc.local Compatibility.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Update Check.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Timers.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Terminate Plymouth Boot Screen...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Crankshaft Bluetooth Service...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting Hold until boot process finishes up...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Starting LSB: set CPUFreq kernel parameters...
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Received SIGRTMIN+21 from PID 265 (plymouthd).
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Terminate Plymouth Boot Screen.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Hold until boot process finishes up.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty3.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Serial Getty on ttyS0.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Getty on tty1.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Reached target Login Prompts.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Service.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Auto Pairing Service.
+Nov  3 17:17:03 CRANKSHAFT-NG systemd[1]: Started Crankshaft Bluetooth Device Detect Service.
+Nov  3 17:17:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: WPA-EVENT: USING WIFI SSID: ohana
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG cpufrequtils[2447]: CPUFreq Utilities: Setting performance CPUFreq governor...CPU0...CPU1...CPU2...CPU3...done.
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started LSB: set CPUFreq kernel parameters.
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: DHCP-EVENT: ohana got a lease
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/service_wpachange.sh
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: ROUTE: Default route set to 192.168.1.1
+Nov  3 17:17:04 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started Crankshaft Wifi Monitor Service.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started OpenBSD Secure Shell server.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Reached target Multi-User System.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Reached target Graphical Interface.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Started Update UTMP about System Runlevel Changes.
+Nov  3 17:17:04 CRANKSHAFT-NG systemd[1]: Startup finished in 4.154s (kernel) + 22.552s (userspace) = 26.707s.
+Nov  3 17:17:04 CRANKSHAFT-NG kernel: [   27.031600] Under-voltage detected! (0x00050005)
+Nov  3 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-pi'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:08 CRANKSHAFT-NG service_openauto.sh[1646]: Cannot find a running Bluez. Please check the Bluez installation.
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:08 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:10 CRANKSHAFT-NG dhcpcd[2414]: wlan0: no IPv6 Routers available
+Nov  3 17:17:11 CRANKSHAFT-NG kernel: [   33.271510] Voltage normalised (0x00000000)
+Nov  3 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Nov  3 17:17:17 CRANKSHAFT-NG dbus[350]: [system] Activation via systemd failed for unit 'dbus-org.bluez.service': Unit dbus-org.bluez.service not found.
+Nov  3 17:17:27 CRANKSHAFT-NG systemd-timesyncd[301]: Timed out waiting for reply from 213.251.52.250:123 (2.debian.pool.ntp.org).
+Apr  8 13:35:26 CRANKSHAFT-NG systemd[1]: Time has been changed
+Apr  8 13:35:26 CRANKSHAFT-NG systemd-timesyncd[301]: Synchronized to time server 185.19.184.35:123 (2.debian.pool.ntp.org).
+Apr  8 13:35:26 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.231534] Under-voltage detected! (0x00050005)
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.311492] usb 1-1.3: new high-speed USB device number 5 using dwc_otg
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.442874] usb 1-1.3: New USB device found, idVendor=04e8, idProduct=6860
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.442889] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.442898] usb 1-1.3: Product: SAMSUNG_Android
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.442907] usb 1-1.3: Manufacturer: SAMSUNG
+Apr  8 13:35:34 CRANKSHAFT-NG kernel: [   58.442916] usb 1-1.3: SerialNumber: ce041714225e988c0c
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: Device detected - /dev/bus/usb/001/005 - SAMSUNG_Android
+Apr  8 13:35:36 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.107587] usb 1-1.3: USB disconnect, device number 5
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.401631] usb 1-1.3: new high-speed USB device number 6 using dwc_otg
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.532851] usb 1-1.3: New USB device found, idVendor=18d1, idProduct=2d00
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.532868] usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.532878] usb 1-1.3: Product: SAMSUNG_Android
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.532886] usb 1-1.3: Manufacturer: SAMSUNG
+Apr  8 13:35:38 CRANKSHAFT-NG kernel: [   62.532894] usb 1-1.3: SerialNumber: ce041714225e988c0c
+Apr  8 13:35:38 CRANKSHAFT-NG mtp-probe: checking bus 1, device 6: "/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3"
+Apr  8 13:35:38 CRANKSHAFT-NG mtp-probe: bus: 1, device: 6 was not an MTP device
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: Device removed - /dev/bus/usb/001/005 - SAMSUNG_Android
+Apr  8 13:35:39 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: Device detected - /dev/bus/usb/001/006 - SAMSUNG_Android
+Apr  8 13:35:40 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:36:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
+Apr  8 13:36:03 CRANKSHAFT-NG kernel: [   86.683564] usb 1-1.3: USB disconnect, device number 6
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: Caller: /opt/crankshaft/usb_action.sh
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: Device removed - /dev/bus/usb/001/006 - SAMSUNG_Android
+Apr  8 13:36:03 CRANKSHAFT-NG root: SERV-LOGGER: --------------------------------------------------------------------
+Apr  8 13:36:09 CRANKSHAFT-NG kernel: [   93.592464] Voltage normalised (0x00000000)
+Apr  8 13:36:41 CRANKSHAFT-NG systemd[1]: Reloading.
+Apr  8 13:37:00 CRANKSHAFT-NG systemd[1]: Started Crankshaft Day Mode Service.
