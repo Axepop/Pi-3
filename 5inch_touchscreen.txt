@@ -1,0 +1,31 @@
+5 inch HDMI Capacitive Touch Screen Monitor - 800x480
+
+1) Add the following to config.txt
+
+hdmi_group=2
+hdmi_mode=87
+hdmi_cvt 800 480 60 6 0 0 0
+hdmi_drive=1
+
+2 ) sudo nano /boot/config.txt
+add
+
+Code: Select all
+
+dtparam=i2c_arm=on
+dtparam=spi=on
+dtoverlay=ads7846,penirq=25,speed=10000,penirq_pull=2,xohms=150
+
+3) Create directory /etc/X11/xorg.conf.d and file 99-calibration.conf in that directory
+Add the following into the file
+
+Code: Select all
+
+Section "InputClass"
+        Identifier "calibration"
+        MatchProduct "ADS7846 Touchscreen"
+        Option "Calibration" "3853 170 288 3796"
+        Option "SwapAxes" "1"
+EndSection
+
+3) REBOOT
