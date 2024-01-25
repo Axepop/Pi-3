@@ -43,11 +43,11 @@ dtoverlay=ads7846,penirq=25,speed=10000,penirq_pull=2,xohms=150
 
 4) Once the OS is done booting I had to reset the user password at Preferences 
 
-5) open the terminal and run
+5) Open the terminal and run
 
-sudo apt update
+$ sudo apt update
 
-sudo apt install -y gparted  <-- because I may want to fiddle with atached drives someday
+$ sudo apt install -y gparted  <-- because I may want to fiddle with atached drives someday
 
 6) Calibrate the touchscreen
 xpt2046 LCD driver for the Raspberry PI Installation
@@ -71,6 +71,8 @@ Updates:
   $ sudo chmod -R 755 LCD-show
   
   $ cd LCD-show/
+
+  $ sudo ./LCD5-show
   
 
     According to your LCD's type, execute:
