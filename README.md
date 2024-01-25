@@ -67,8 +67,11 @@ Updates:
     Clone this repo into your pi, open LX Terminal and enter following commands:
 
   $ git clone https://github.com/goodtft/LCD-show.git
+  
   $ sudo chmod -R 755 LCD-show
+  
   $ cd LCD-show/
+  
 
     According to your LCD's type, execute:
 
@@ -87,8 +90,11 @@ Updates:
     If you are using Raspbian image version 2017-03-02 or later, you need to execute these additional 2 commands below after step 4 to allow calibration of resistive touch screen. Then reboot the system.
 
   $ cd LCD-show
+  
   $ sudo dpkg -i -B xserver-xorg-input-evdev_1%3a2.10.3-1_armhf.deb
+  
   $ sudo cp -rf /usr/share/X11/xorg.conf.d/10-evdev.conf /usr/share/X11/xorg.conf.d/45-evdev.conf
+  
   $ sudo reboot
 
 
