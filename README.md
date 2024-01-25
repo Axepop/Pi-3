@@ -33,7 +33,7 @@ hdmi_mode=87
 hdmi_cvt 800 480 60 6 0 0 0
 hdmi_drive=1
 
-2 ) Add
+2) Add
 
 dtparam=i2c_arm=on
 dtparam=spi=on
