@@ -24,9 +24,9 @@ Enter in the brain work and researching the nerd world. I spent a bit of time re
 
 I downloaded Etcher 1.18.1 and burned 20210607_RaspberryPi_with_OA_747.img to the microSD card. I had to modify a few things in code. 
 
-<h2>XPT2046 5 inch HDMI Capacitive Touch Screen Monitor - 800x480</h2>
+<h2>Preboot edit of config.txt for the XPT2046 5 inch HDMI Capacitive Touch Screen Monitor - 800x480</h2>
 
-1) Add the following to config.txt
+1) Access the microSD  and edit config.txt with the following
 
 hdmi_group=2
 hdmi_mode=87
@@ -57,7 +57,7 @@ Updates:
         Add xserver-xorg-input-evdev_1%3a2.10.3-1_armhf.deb to support Raspbian-2017-03-02
     v1.1-20160815
 
-How to Install
+<h3>How to Install</h3>
 
     Install Raspbian OS (If you have installed, you may skip this step)
 
@@ -77,7 +77,7 @@ How to Install
     3.5" LCD - $ sudo ./LCD35-show
     3.97" LCD - $ sudo ./LCD397-show
     4.3" LCD - $ sudo ./LCD43-show
-    5" LCD - $ sudo ./LCD5-show
+    <h3>5" LCD - $ sudo ./LCD5-show </h3)
     7inch(B)-800X480 RPI LCD - $ sudo ./LCD7B-show
     7inch(C)-1024X600 RPI LCD - $ sudo ./LCD7C-show
     Original HDMI display - $ sudo ./LCD-hdmi
