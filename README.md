@@ -11,7 +11,7 @@ So I had this idea once I got a mothballed RPi 3B+ that I could fancy up my old 
 - USB-C breakout board
 - 12V 20mm rocker switch
 - AutoCAD2014
-- soldering irion, flux and solder
+- soldering iron, flux and solder
 - baby screws
 
 
