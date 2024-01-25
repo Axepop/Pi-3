@@ -77,7 +77,7 @@ Updates:
     3.5" LCD - $ sudo ./LCD35-show
     3.97" LCD - $ sudo ./LCD397-show
     4.3" LCD - $ sudo ./LCD43-show
-    <h3>5" LCD - $ sudo ./LCD5-show </h3)
+    5" LCD - $ sudo ./LCD5-show    <-- Use this for the screen.
     7inch(B)-800X480 RPI LCD - $ sudo ./LCD7B-show
     7inch(C)-1024X600 RPI LCD - $ sudo ./LCD7C-show
     Original HDMI display - $ sudo ./LCD-hdmi
