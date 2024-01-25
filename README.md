@@ -19,7 +19,7 @@ So I had this idea once I got a mothballed RPi 3B+ that I could fancy up my old 
 
 Let the joy begine, designing somethign! I cracked open my tool box and make a as built solid model of the Pi in AutoCAD 2014 with my dial calipers. Then came the housing, and after and few version designs and 3d printed by my wife and her lovely printer I how the housing set. Inside it holds the Pi 3B+, a XPT2046 Touchscreen, USB-c breakout board and a 12V rocker switch. I desighned a port for the built in micro USB and audio port for flexability.
 
-<h2>Testing the verious OSs out there</h2>
+<h2>Testing the verious OS flavors out there</h2>
 Enter in the brain work and researching the nerd world. I spent a bit of time reviewing Crankshaft NG, OpenAutoPro, and a few other builds out there. ultimatly I settled on 747 Developement's OS build and integration. It provides OpenAuto Android integration, OBD2 scanning(dongle required) and a FM radio interface(not implimented yet...yet). Here is the provess I used to get it all done.
 
 I downloaded Etcher 1.18.1 and burned 20210607_RaspberryPi_with_OA_747.img to the microSD card. I had to modify a few things in code. 
