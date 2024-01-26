@@ -13,6 +13,7 @@ So I had this idea once I got a mothballed RPi 3B+ that I could fancy up my old 
 - AutoCAD2014
 - soldering iron, flux and solder
 - baby screws
+- 3D prited CarPo case (https://www.myminifactory.com/object/3d-print-carpi-pi-3b-and-5-inch-screen-case-351987)
 
 
 <h2>Getting to business</h2>
